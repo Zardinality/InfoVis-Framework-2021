@@ -1,4 +1,6 @@
 import os
+os.environ['FLASK_ENV'] = "development"
+
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 from app import create_app, socketio

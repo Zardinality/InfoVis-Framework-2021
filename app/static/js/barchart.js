@@ -20,7 +20,7 @@ function updatePlot() {
         .then(function(response) { return response.json(); })
         .then((data) => {
             plot_data = data;
-            removeOldChart();
+            // removeOldChart();
             createNewChart();
     });
 }
@@ -30,26 +30,14 @@ function removeOldChart() {
         .remove();
 }
 
+// function updateToNewChart() {
+//     svgContainer.
+// }
+
 function createNewChart() {
-    var chart_group = svgContainer.append("g")
-        .attr("id", "chart_group")
-        .attr("transform", "translate(" + 100 + "," + 50 + ")");
 
-    
-    chart_group.append("g")
-        .attr("transform", "translate(" + 0 + "," + chart_height + ")")
-        .call(d3.axisBottom(x));
-        // Code for vertical bar chart
-        // .selectAll("text")
-        // .attr("y", 0)
-        // .attr("x", 9)
-        // .attr("transform", "rotate(90)")
-        // .style("text-anchor", "start");
+    var map = d3.map(plot_data[0]);
 
-    chart_group.append("g")
-        .call(d3.axisLeft(y));
-
-    var map = d3.map(plot_data[0]); 
 
     chart_group.selectAll(".bar")
     .data(map.entries())
@@ -57,8 +45,8 @@ function createNewChart() {
     .append("rect")
     .attr("class", "bar")
     .attr("x", 1)
-    .attr("y", function (d) { return y(d.key) })
-    .attr("width", function(d) { return x(d.value); })
+    .attr("y", function (d) {console.log(y(d.key), d.value); return y(d.key) })
+    .attr("width", function(d) { return x(0); })
     .attr("height", y.bandwidth())
     .on("mouseover", function(d, i) {
         var x_var = d.key;
@@ -97,15 +85,31 @@ function createNewChart() {
     .style("text-anchor", "middle")
     .style("font-size", "13px")
     .text("Percentage");
+    chart_group.selectAll("#chart-title").remove();
+	chart_group.append("text")
+		.attr("class", "title")
+		.attr("id", "chart-title")
+		.attr("y", -25)
+		.attr("x", chart_width / 2)
+		.style("font-weight", "bold")
+		.style("text-anchor", "middle")
+		.text("Rental statistics of " + selected_area);
 
-    chart_group.append("text")
-            .attr("class", "title")
-            .attr("id", "chart-title")
-            .attr("y", -25)
-            .attr("x", chart_width / 2)
-            .style("font-weight", "bold")               
-            .style("text-anchor", "middle")
-            .text("Rental statistics of " + selected_area);
+
+    // chart_group.append("text")
+    //         .attr("class", "title")
+    //         .attr("id", "chart-title")
+    //         .attr("y", -25)
+    //         .attr("x", chart_width / 2)
+    //         .style("font-weight", "bold")               
+    //         .style("text-anchor", "middle")
+    //         .text("Rental statistics of " + selected_area);
+
+    chart_group.selectAll("rect")
+            .transition()
+            .duration(800)
+            .attr("width", function(d) {console.log(d) ; return x(d.value); })
+            .delay(function(d,i){return(i*100)})
 
     // Code for vertical bar chart
     // chart_group.selectAll(".bar")
