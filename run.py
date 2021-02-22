@@ -1,5 +1,6 @@
 import os
-os.environ['FLASK_ENV'] = "development"
+# works in windows, doesnt hurt anyway
+os.environ['FLASK_ENV'] = "development" 
 
 from werkzeug.middleware.proxy_fix import ProxyFix
 

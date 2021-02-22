@@ -46,7 +46,7 @@
 					.attr("width", width);
 
 	var x = d3.scaleLinear().rangeRound([0, chart_width]),
-		y = d3.scaleBand().rangeRound([chart_height, 0]).padding(0.1);
+		y = d3.scaleBand().rangeRound([chart_height, 0]).padding(1);
 		
 	x.domain([0, 100]);
 	y.domain(x_variables);
@@ -82,9 +82,10 @@
 		.style("font-weight", "bold")               
 		.style("text-anchor", "middle")
 		.text("Rental statistics of " + selected_area);
+	// let kvarray = [[0,0], [1,0], [2,0],]
+	// let fake_map = new Map(11);
+
 
 
 	updatePlot();
 </script>
-
-{% endblock %}

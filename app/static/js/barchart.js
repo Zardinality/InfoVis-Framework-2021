@@ -14,15 +14,47 @@ function updateArea(selectObject) {
     updatePlot();
 };
 
+var isInit = false;
+
 function updatePlot() {
     var fetch_url = "/d3_plot_data?area_name=" + selected_area;
     fetch(fetch_url)
         .then(function(response) { return response.json(); })
         .then((data) => {
             plot_data = data;
+            if (!isInit)
+            {
+                console.log("rua");
+                buildInitChart();
+                isInit = true;
+            }
             // removeOldChart();
             createNewChart();
     });
+}
+
+function buildInitChart(){
+    // console.log()
+    var map = d3.map(plot_data[0]);
+    chart_group.selectAll(".myline")
+    .data(map.entries())
+    .enter()
+    .append("line")
+    .attr("class", "myLine")
+    .attr("x1", 1)
+    .attr("x2", 1)
+    .attr("y1", function(d) {return y(d.key);})
+    .attr("y2", function(d) {return y(d.key);})
+    .attr("stroke", "grey");
+
+    chart_group.selectAll("circle")
+        .data(map.entries())
+        .enter()
+        .append("circle")
+        .attr("cx",function(d) {return x(0);})
+        .attr("cy", function (d) { return y(d.key) })
+        .attr("r", 8)
+        .attr("fill", "#69b3a2");
 }
 
 function removeOldChart() {
@@ -30,24 +62,44 @@ function removeOldChart() {
         .remove();
 }
 
-// function updateToNewChart() {
-//     svgContainer.
-// }
+
 
 function createNewChart() {
 
     var map = d3.map(plot_data[0]);
 
-
-    chart_group.selectAll(".bar")
+    var j = chart_group.selectAll(".myLine")
     .data(map.entries())
+  // update lines
+    j
     .enter()
-    .append("rect")
+    .append("line")
+    .attr("class", "myLine")
+    .merge(j)
+    .transition()
+    .duration(1000)
+      .attr("x1", 1)
+      .attr("x2", function(d) { return x(d.value); })
+      .attr("y1", function(d) {return y(d.key);})
+      .attr("y2", function(d) {return y(d.key);})
+      .attr("stroke", "grey")
+
+
+      
+    var u = chart_group.selectAll("circle")
+    .data(map.entries());
+    var enter = u
+    .enter()
+    .append("circle")
+    .merge(u)
+    .transition()
+    .duration(1000)
     .attr("class", "bar")
-    .attr("x", 1)
-    .attr("y", function (d) {console.log(y(d.key), d.value); return y(d.key) })
-    .attr("width", function(d) { return x(0); })
-    .attr("height", y.bandwidth())
+    .attr("cx",function(d) {return x(d.value);})
+    .attr("cy", function (d) {console.log(y(d.key), d.value); return y(d.key) })
+    .attr("r", 8)
+    .attr("fill", "#69b3a2");
+    u
     .on("mouseover", function(d, i) {
         var x_var = d.key;
         var value = d.value;
@@ -77,6 +129,46 @@ function createNewChart() {
         //d3.select(this).attr("fill", "steelblue");
     });
 
+    u.merge(enter);
+
+    // chart_group.selectAll(".bar")
+    // .data(map.entries())
+    // .enter()
+    // .append("rect")
+    // .attr("class", "bar")
+    // .attr("x", 1)
+    // .attr("y", function (d) {console.log(y(d.key), d.value); return y(d.key) })
+    // .attr("width", function(d) { return x(0); })
+    // .attr("height", y.bandwidth())
+    // .on("mouseover", function(d, i) {
+    //     var x_var = d.key;
+    //     var value = d.value;
+    //     var info = get_info_on_var(x_var);
+    //     var label = info[0]
+    //     var definition = info[1];
+
+    //     displayTooltip("<b>Variable: </b>" + label + "<br /><b>Percentage: </b>" + 
+    //         value + "%<br /><b>Explanation: </b>" + definition)
+
+    //     //d3.select(this).attr("fill", "DarkOrange");
+    // })
+    // .on("mousemove", function(d, i) {
+    //     var x_var = d.key;
+    //     var value = d.value;
+    //     var info = get_info_on_var(x_var);
+    //     var label = info[0]
+    //     var definition = info[1];
+
+    //     displayTooltip("<b>Variable: </b>" + label + "<br /><b>Percentage: </b>" + 
+    //         value + "%<br /><b>Explanation: </b>" + definition)
+
+    //     //d3.select(this).attr("fill", "DarkOrange");
+    // })
+    // .on("mouseout", function(d) {
+    //     hideTooltip();
+    //     //d3.select(this).attr("fill", "steelblue");
+    // });
+
     // text label for the x axis
     svgContainer.append("text")             
     .attr("transform",
@@ -105,11 +197,11 @@ function createNewChart() {
     //         .style("text-anchor", "middle")
     //         .text("Rental statistics of " + selected_area);
 
-    chart_group.selectAll("rect")
-            .transition()
-            .duration(800)
-            .attr("width", function(d) {console.log(d) ; return x(d.value); })
-            .delay(function(d,i){return(i*100)})
+    // chart_group.selectAll("rect")
+    //         .transition()
+    //         .duration(800)
+    //         .attr("width", function(d) {console.log(d) ; return x(d.value); })
+    //         .delay(function(d,i){return(i*100)})
 
     // Code for vertical bar chart
     // chart_group.selectAll(".bar")
