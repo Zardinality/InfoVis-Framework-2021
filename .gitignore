@@ -4,3 +4,8 @@ app/.DS_Store
 app/static/.DS_Store
 app/templates/.DS_Store
 app/__pycache__
+# personal slides related
+slides*
+demo*
+# datafile, too large
+omniart_v3_datadump.csv
