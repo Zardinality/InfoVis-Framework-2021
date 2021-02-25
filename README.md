@@ -135,8 +135,8 @@ The histogram of the artwork counts each school(geographic location) create is s
 
 
 ---
-Project topic proposals:
-1. Information visualization based on geographic label:
+##Project topic proposals:
+### 1. Information visualization based on geographic label:
 
     ![geo-viz](./static/geographic-viz.png)
 
@@ -161,3 +161,9 @@ Project topic proposals:
     **Pros**:
     
     * Think it won't leave us a bad score.
+
+### 2. Colours of the world over time
+![geo-viz](./static/colours-of-the-world.jpg)
+**Time slider**
+
+The idea is to visualize the changes in the most used `colour pallet` per geographic label location over time. First of all, this will look eye-catching colourful. Secondly, this enables visualization visitors to develop an intuition about differences between countries/continents. At lasts, this allows visitors to see colour trends changing over time.
