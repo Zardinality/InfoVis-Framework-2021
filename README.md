@@ -135,7 +135,7 @@ The histogram of the artwork counts each school(geographic location) create is s
 
 
 ---
-##Project topic proposals:
+## Project topic proposals:
 ### 1. Information visualization based on geographic label:
 
     ![geo-viz](./static/geographic-viz.png)
