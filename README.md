@@ -138,7 +138,7 @@ The histogram of the artwork counts each school(geographic location) create is s
 ## Project topic proposals:
 ### 1. Information visualization based on geographic label:
 
-    ![geo-viz](./static/geographic-viz.png)
+![geo-viz](./static/geographic-viz.png)
 
     Almost a third of artworks are with a known label `school` (although among those a third is marked as `london` and `modern`). But according to the histogram, the number of school with over 1000 artworks is almost 100, a considerably large number to fill up the map. A plausible idea will hence be:
 
