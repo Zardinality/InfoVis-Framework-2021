@@ -16,6 +16,11 @@ def index():
 	return render_template("home.html")
 
 
+@main.route('/world', methods=['GET'])
+def world():
+	return render_template("world.html")
+
+
 # @main.route('/project', methods = ['GET'])
 # def getColors():
 #     colors = ['Red', 'Blue', 'Black', 'Orange']
