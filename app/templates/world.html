@@ -8,33 +8,47 @@
 
 <html>
 	<head>
-		<title>World Map</title>
+		<title>Colours of the World</title>
 	</head>
 	<body>
-		<h1>Hello World</h1>
-		<svg width="960" height="1800"></svg>
+		<h1>Colours of the World</h1>
+		<svg width="1000" height="1000"></svg>
 	</body>
 </html>
 
 <script>
 	const svg = d3.select('svg')
+	const g = svg.append('g');
+
 	const projection = d3.geoMercator();
 	const pathGenerator = d3.geoPath().projection(projection)
 
-	// Load world map
-	d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json")
-		.then(data => {
-			// Select country data
-			const countries = topojson.feature(data, data.objects.countries);
-			console.log(countries);
 
-			// Project the world map
-			svg.selectAll('path')
-				.data(countries.features)
-				.enter().append('path')	
+	// Load datasets
+	Promise.all([
+		// Load world map
+		d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json"),
+
+		// Load file with country information
+		d3.tsv("https://unpkg.com/world-atlas@1.1.4/world/110m.tsv")
+	]).then(([topoJSONdata, tsvData]) => {
+
+		// Retrieve country information
+		const countryName = {};
+		tsvData.forEach(d => {
+			countryName[d.iso_n3] = d.name;
+		});
+
+		// Project the world map
+		const countries = topojson.feature(topoJSONdata, topoJSONdata.objects.countries);
+		g.selectAll('path')
+			.data(countries.features)
+			.enter().append('path')	
+				.attr('class', 'country')
 				.attr('d', pathGenerator)
-	})
-
+			.append('title')
+				.text(d => countryName[d.id]);
+	});
 </script>
 
 {% endblock %}
