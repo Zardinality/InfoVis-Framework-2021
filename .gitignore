@@ -9,3 +9,4 @@ slides*
 demo*
 # datafile, too large
 omniart_v3_datadump.csv
+.vscode

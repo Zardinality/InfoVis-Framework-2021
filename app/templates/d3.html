@@ -58,6 +58,31 @@
 	// Code for vertical bar chart
 	// x.domain(x_variables);
 	// y.domain([0, 100]);
+	var chart_group = svgContainer.append("g")
+        .attr("id", "chart_group")
+        .attr("transform", "translate(" + 100 + "," + 50 + ")");
+
+    
+    chart_group.append("g")
+        .attr("transform", "translate(" + 0 + "," + chart_height + ")")
+        .call(d3.axisBottom(x));
+        // Code for vertical bar chart
+        // .selectAll("text")
+        // .attr("y", 0)
+        // .attr("x", 9)
+        // .attr("transform", "rotate(90)")
+        // .style("text-anchor", "start");
+	chart_group.append("g")
+		.call(d3.axisLeft(y));
+	chart_group.append("text")
+		.attr("class", "title")
+		.attr("id", "chart-title")
+		.attr("y", -25)
+		.attr("x", chart_width / 2)
+		.style("font-weight", "bold")               
+		.style("text-anchor", "middle")
+		.text("Rental statistics of " + selected_area);
+
 
 	updatePlot();
 </script>

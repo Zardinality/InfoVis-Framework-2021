@@ -1,4 +1,6 @@
 import os
+os.environ['FLASK_ENV'] = "development"
+
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 from app import create_app, socketio
@@ -23,6 +25,6 @@ app = create_app(config_name)
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 if __name__ == '__main__':
-    socketio.run(app, threaded=True)
+    socketio.run(app)
 
     
