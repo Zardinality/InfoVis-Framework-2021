@@ -5,6 +5,8 @@
 	d3.selectAll(".nav-item").classed("active", false);
 	d3.select("#nav-link-d3").classed("active", true);
 </script>
+<link href="../static/css/tooltip.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../static/js/tooltip.js"></script>
 
 <html>
 
@@ -54,8 +56,6 @@
 			.enter().append('path')
 			.attr('class', 'country')
 			.attr('d', pathGenerator)
-			.append('title')
-			.text(d => countryName[d.id])
 			.style("fill", function (d) {
 				if (!datasetData[countryCode[d.id]]) {
 					return colorScale(0)
@@ -64,10 +64,12 @@
 				return colorScale(d.total);
 			}).on("click", function (d, i) {
 				hideTooltip()
-				displayTooltip("<b>Top artist</b>" + datasetData[countryCode[d.id]]['artist_full_name'] + "%<br /><b>artwork: </b>" + datasetData[countryCode[d.id]][artwork_name][0])
-
+				displayTooltip("<b>Top artist</b>" + datasetData[countryCode[d.id]]['artist_full_name'] + "%<br /><b>artwork: </b>" + datasetData[countryCode[d.id]]['artwork_name'][0])
+				
 				//d3.select(this).attr("fill", "DarkOrange");
 			});
+			// .append('title')
+			// .text(d => countryName[d.id])
 	});
 </script>
 
