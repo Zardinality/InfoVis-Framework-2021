@@ -7,12 +7,18 @@
 </script>
 <link href="../static/css/tooltip.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="../static/js/tooltip.js"></script>
+<script type="text/javascript" src="../static/js/slider.js"></script>
+<script type="text/javascript" src="../static/js/world_map.js"></script>
 
 <html>
 
 <head>
 	<title>Colours of the World</title>
 </head>
+
+<!-- Add two sliders -->
+<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="1500">
+<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="1700">
 
 <body>
 	<h1>Colours of the World</h1>
@@ -31,46 +37,21 @@
 	var colorScale = d3.scaleThreshold()
 		.domain([1, 5, 10])
 		.range(d3.schemeBlues[4]);
+	var world_map = svg.append("g")
+	.attr("id", "world_map");
+	// var slider = svg.append("g")
+	// .attr("id", "slider");
+	var palette = svg.append("g")
+	.attr("id", "palette");
+	
 
-	// Load datasets
-	Promise.all([
-		// Load world map
-		d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json"),
+	var lower_year = d3.select("#lower_bound").attr("value")
+	var upper_year = d3.select("#upper_bound").attr("value")
 
-		// Load file with country information
-		d3.tsv("https://unpkg.com/world-atlas@1.1.4/world/110m.tsv"),
-		d3.json("../static/omniart_v3_1k_res.json")
-	]).then(([topoJSONdata, tsvData, datasetData]) => {
-
-		// Retrieve country information
-		const countryName = {};
-		const countryCode = {};
-		tsvData.forEach(d => {
-			countryName[d.iso_n3] = d.name;
-			countryCode[d.iso_n3] = d.adm0_a3;
-		});
-		// Project the world map
-		const countries = topojson.feature(topoJSONdata, topoJSONdata.objects.countries);
-		g.selectAll('path')
-			.data(countries.features)
-			.enter().append('path')
-			.attr('class', 'country')
-			.attr('d', pathGenerator)
-			.style("fill", function (d) {
-				if (!datasetData[countryCode[d.id]]) {
-					return colorScale(0)
-				}
-				d.total = datasetData[countryCode[d.id]]['id'].length || 0;
-				return colorScale(d.total);
-			}).on("click", function (d, i) {
-				hideTooltip()
-				displayTooltip("<b>Top artist</b>" + datasetData[countryCode[d.id]]['artist_full_name'] + "%<br /><b>artwork: </b>" + datasetData[countryCode[d.id]]['artwork_name'][0])
-				
-				//d3.select(this).attr("fill", "DarkOrange");
-			});
-			// .append('title')
-			// .text(d => countryName[d.id])
-	});
+	d3.json("../static/omniart_v3_1k_res.json").then(datasetData=>{
+		create_slider(datasetData);
+		update_map(datasetData);
+	})
 </script>
 
 {% endblock %}
