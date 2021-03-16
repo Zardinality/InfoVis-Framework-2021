@@ -3,11 +3,11 @@ import numpy as nd
 from pandas.io import json
 
 
-DATA_FILE = '../data/omniart_v3_datadump_1k.csv'
-OUTPUT_FILE = './static/omniart_v3_1k_res.json'
+DATA_FILE = '../data/omniart_v3_datadump_100k.csv'
+OUTPUT_FILE = './static/omniart_v3_100k_res.json'
 
 LABEL_TO_CODE = {'dutch': 'NLD', 'Nederland': 'NLD', 'netherlandish': 'NLD', 'flemish': 'BEL', 'french': 'FRA', 'france métropolitaine, france': 'FRA', 'italia': 'ITA', 'german': 'DEU', 'english': 'GBR', 'japanese': 'JPN',
-                 'american': 'USA', 'great britain, richmondshire, north yorkshire, yorkshire and the humber, england, uk': "GBR", 'austrian': 'AUT', 'spanish': "ESP" , 'catalan': "ESP", 'chinese': 'CHN', 'hungarian': 'HUN', 'danish': 'DNK', 'deutschland, europe': 'DEU'}
+                 'american': 'USA', 'great britain, richmondshire, north yorkshire, yorkshire and the humber, england, uk': "GBR", 'austrian': 'AUT', 'spanish': "ESP" , 'catalan': "ESP", 'chinese': 'CHN', 'hungarian': 'HUN', 'danish': 'DNK', 'deutschland, europe': 'DEU', "london": "GBR", "paris":"FRA", "new york": "USA", "british":"GBR", "italian": "ITA", "philadelphia": "USA", "leipzig": "DEU", "edinburgh":"GBR", "chicago": "USA", "milano": "ESP", "budapest":"HUN", 'berlin':"DEU", 'wien':'AUT', 'stockholm':"SWE", "bruxelles":"BEL", "boston": "USA" ,'amsterdam':"NLD", "crewe, manchester":"GBR", "flemish":"NLD", "madrid":"ESP", 'boston [mass.]':"USA"}
 
 
 def top_places(df: pd.DataFrame):
@@ -18,7 +18,9 @@ def aggregate_per_geo(df: pd.DataFrame):
     sliced_df = df[df['school'].isin(LABEL_TO_CODE)]
     sliced_df['school'] = sliced_df['school'].apply(lambda x: LABEL_TO_CODE[x])
     res = sliced_df.groupby(by='school').agg(list)
-    res = res.drop(['Unnamed: 0'], axis=1)
+    # print(res.columns)
+    if 'Unnamed: 0' in res.columns:
+        res = res.drop(['Unnamed: 0'], axis=1)
     return res
 
 def hex2rgb(s:str):

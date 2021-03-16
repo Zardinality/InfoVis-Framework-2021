@@ -22,7 +22,7 @@ function update_gallery(dataset_data) {
         }
         else {
             return -1;
-        }
+        } 
     })
     
     // Select a subset

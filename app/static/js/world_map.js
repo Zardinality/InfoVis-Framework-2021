@@ -37,7 +37,8 @@ function update_map(datasetData){
             }).on("mouseover", function (d, i) {
                 // hideTooltip()
                 var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
-                displayTooltip("<b>Top artist</b>" + cur_data['artist_full_name'] + "%<br /><b>artwork: </b>" + cur_data['artwork_name'][0])
+                var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
+                displayTooltip("<b>Country names:</b>:" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])
                 
                 //d3.select(this).attr("fill", "DarkOrange");
             }).on("mouseout", function (d, i) {
