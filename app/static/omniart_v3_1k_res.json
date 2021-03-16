@@ -1,128 +1,318 @@
 {
     "AUT": {
-        "id": [
-            "b80daf88-fe48-4926-b66a-06086e52056f",
-            "1893bfaa-1f9e-4760-9a00-fe6581e9bacd"
-        ],
-        "artwork_name": [
-            "the death of st. clare",
-            "ariadne handing theseus the thread"
+        "artist_row": {
+            "master of heiligenkreuz": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/master\/heiligen\/heilige1.jpg"
+                ],
+                "creation_year": [
+                    1410.0
+                ],
+                "dominant_color": [
+                    [
+                        192,
+                        138,
+                        95
+                    ]
+                ]
+            },
+            "johann michael rottmayr": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/r\/rottmayr\/rossau2.jpg"
+                ],
+                "creation_year": [
+                    1705.0
+                ],
+                "dominant_color": [
+                    [
+                        162,
+                        154,
+                        148
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1410.0,
+            1705.0
         ],
         "artist_full_name": [
             "master of heiligenkreuz",
             "johann michael rottmayr"
         ],
-        "artist_first_name": [
-            "master of",
-            "johann michael"
-        ],
-        "artist_last_name": [
-            "heiligenkreuz",
-            "rottmayr"
-        ],
-        "creation_year": [
-            1410.0,
-            1705.0
-        ],
-        "century": [
-            15.0,
-            18.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/m\/master\/heiligen\/heilige1.html",
-            "https:\/\/www.wga.hu\/html\/r\/rottmayr\/rossau2.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/m\/master\/heiligen\/heilige1.jpg",
-            "http:\/\/www.wga.hu\/art\/r\/rottmayr\/rossau2.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "painting",
-            "painting"
-        ],
-        "original_id_in_collection": [
-            "24440",
-            "34873"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            24434,
-            34866
-        ],
-        "created_by_id": [
-            1,
-            1
-        ],
-        "general_type": [
-            "painting",
-            "painting"
-        ],
-        "geocoded": [
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#e5c9aa', u'#d0a57b', u'#be6145', u'#895f4b', u'#523331', u'#3d3141', u'#231f20', u'#1e1918', u'#f6e6cd', u'#c08a5f', u'#8e3c32', u'#2b2629']",
-            "[u'#cccdc8', u'#b7afa9', u'#a78166', u'#896750', u'#75797a', u'#a29a94', u'#90806f', u'#857e72', u'#744e3c', u'#706657', u'#564e45', u'#3f2a23']"
-        ],
-        "dominant_color": [
-            "#c08a5f",
-            "#a29a94"
-        ],
-        "palette_count": [
-            "[4596, 6609, 4148, 4756, 5735, 6393, 6172, 6112, 4327, 7085, 3931, 5672]",
-            "[3575, 5623, 3784, 5951, 3490, 7734, 3681, 3283, 7663, 6574, 6533, 7645]"
+        "artwork_name": [
+            "the death of st. clare",
+            "ariadne handing theseus the thread"
         ]
     },
     "BEL": {
-        "id": [
-            "df81bb64-3070-4844-91f8-82688a515718",
-            "2beb2a3a-9660-42dd-836b-0cdf5f7de62c",
-            "6f2fcc52-cb53-4b31-930c-2507c94355e7",
-            "657d943c-0bdd-4142-9125-9fa32f8d5ecf",
-            "4e3fdbc3-1723-42d3-b503-7596f4270746",
-            "63f807e3-bc1d-45f9-b336-6202227bcc40",
-            "2021196f-b91e-4123-8cc5-569630f7e3be",
-            "6673eccb-0c95-4048-a54d-dbf4e46b3f1b",
-            "525365c9-4c96-482b-aadf-0577493c0526",
-            "075404f0-a452-49e2-8e55-00feed4de158",
-            "c5bfef39-f845-4986-9717-47e4771510f9",
-            "c8914b98-f5ff-4b1f-9093-2c7dd5d493b5",
-            "8a05983e-e7ec-4404-8c3d-ae8cb6a9e8d6",
-            "d7d02e3e-e44e-40d7-af79-1ec2aaded51e",
-            "3854d1e8-4da3-4a3e-83d0-715f223ee6b9",
-            "860d70e0-c83c-4afd-aadc-4332d4fb328f",
-            "77b9e025-d68b-4f19-8618-4898b96c1f8c"
-        ],
-        "artwork_name": [
-            "assumption of the virgin",
-            "the paradise",
-            "drovers with cattle and goats fording a stream",
-            "coastal landscape",
-            "a family of chickens",
-            "annunciation",
-            "the death of the virgin (detail)",
-            "standing warrior in fantastic armour with a halberd",
-            "st catherine",
-            "the nativity (detail)",
-            "the nativity (detail)",
-            "portrait of hubert goltzius",
-            "susanna and the elders",
-            "a 'pronk' still-life",
-            "an alchemist's laboratory (detail)",
-            "landscape with a cart crossing a river",
-            "triptych with the holy family"
+        "artist_row": {
+            "balthasar beschey": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/beschey\/assumpti.jpg"
+                ],
+                "creation_year": [
+                    1725.0
+                ],
+                "dominant_color": [
+                    [
+                        34,
+                        13,
+                        11
+                    ]
+                ]
+            },
+            "herri met de bles": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/bles\/paradise.jpg"
+                ],
+                "creation_year": [
+                    1540.0
+                ],
+                "dominant_color": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            },
+            "pieter van bloemen": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/bloemen\/pieter\/drovers.jpg"
+                ],
+                "creation_year": [
+                    1675.0
+                ],
+                "dominant_color": [
+                    [
+                        20,
+                        21,
+                        32
+                    ]
+                ]
+            },
+            "jan the elder brueghel": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/bruegel\/jan_e\/1\/coastal.jpg"
+                ],
+                "creation_year": [
+                    1610.0
+                ],
+                "dominant_color": [
+                    [
+                        172,
+                        179,
+                        167
+                    ]
+                ]
+            },
+            "pieter casteels": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/c\/casteels\/chickens.jpg"
+                ],
+                "creation_year": [
+                    1728.0
+                ],
+                "dominant_color": [
+                    [
+                        54,
+                        54,
+                        32
+                    ]
+                ]
+            },
+            "petrus christus": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/c\/christus\/1\/annuncia.jpg"
+                ],
+                "creation_year": [
+                    1452.0
+                ],
+                "dominant_color": [
+                    [
+                        159,
+                        93,
+                        67
+                    ]
+                ]
+            },
+            "hugo van der goes": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/g\/goes\/deathvir\/death_v6.jpg"
+                ],
+                "creation_year": [
+                    1480.0
+                ],
+                "dominant_color": [
+                    [
+                        98,
+                        117,
+                        172
+                    ]
+                ]
+            },
+            "jan gossart": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/g\/gossart\/08drawin\/48drawin.jpg"
+                ],
+                "creation_year": [
+                    1509.0
+                ],
+                "dominant_color": [
+                    [
+                        228,
+                        212,
+                        185
+                    ]
+                ]
+            },
+            "master of female half-lengths": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/master\/female\/catherin.jpg"
+                ],
+                "creation_year": [
+                    1530.0
+                ],
+                "dominant_color": [
+                    [
+                        41,
+                        21,
+                        16
+                    ]
+                ]
+            },
+            "master of flmalle": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/master\/flemalle\/nativity\/nativi_1.jpg",
+                    "http:\/\/www.wga.hu\/art\/m\/master\/flemalle\/nativity\/nativi_2.jpg"
+                ],
+                "creation_year": [
+                    1425.0,
+                    1425.0
+                ],
+                "dominant_color": [
+                    [
+                        120,
+                        85,
+                        71
+                    ],
+                    [
+                        91,
+                        61,
+                        58
+                    ]
+                ]
+            },
+            "anthonis mor van dashorst": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/mor\/7goltziu.jpg"
+                ],
+                "creation_year": [
+                    1574.0
+                ],
+                "dominant_color": [
+                    [
+                        69,
+                        57,
+                        47
+                    ]
+                ]
+            },
+            "peter paul rubens": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/r\/rubens\/61other\/051susan.jpg"
+                ],
+                "creation_year": [
+                    1611.0
+                ],
+                "dominant_color": [
+                    [
+                        66,
+                        35,
+                        14
+                    ]
+                ]
+            },
+            "joris van son": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/son\/pronk.jpg"
+                ],
+                "creation_year": [
+                    1675.0
+                ],
+                "dominant_color": [
+                    [
+                        34,
+                        34,
+                        30
+                    ]
+                ]
+            },
+            "johannes stradanus": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/stradanu\/alchemix.jpg"
+                ],
+                "creation_year": [
+                    1570.0
+                ],
+                "dominant_color": [
+                    [
+                        22,
+                        27,
+                        22
+                    ]
+                ]
+            },
+            "lucas van uden": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/u\/uden\/landcart.jpg"
+                ],
+                "creation_year": [
+                    1625.0
+                ],
+                "dominant_color": [
+                    [
+                        29,
+                        25,
+                        10
+                    ]
+                ]
+            },
+            "flemish unknown master": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/master\/zunk_fl\/16_paint\/1\/13tripty.jpg"
+                ],
+                "creation_year": [
+                    1516.0
+                ],
+                "dominant_color": [
+                    [
+                        166,
+                        109,
+                        60
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1725.0,
+            1540.0,
+            1675.0,
+            1610.0,
+            1728.0,
+            1452.0,
+            1480.0,
+            1509.0,
+            1530.0,
+            1425.0,
+            1425.0,
+            1574.0,
+            1611.0,
+            1675.0,
+            1570.0,
+            1625.0,
+            1516.0
         ],
         "artist_full_name": [
             "balthasar beschey",
@@ -143,436 +333,202 @@
             "lucas van uden",
             "flemish unknown master"
         ],
-        "artist_first_name": [
-            "balthasar",
-            "herri met de",
-            "pieter van",
-            "jan the elder",
-            "pieter",
-            "petrus",
-            "hugo van der",
-            "jan",
-            "master of female",
-            "master of",
-            "master of",
-            "anthonis",
-            "peter paul",
-            "joris van",
-            "johannes",
-            "lucas van",
-            "flemish"
-        ],
-        "artist_last_name": [
-            "beschey",
-            "bles",
-            "bloemen",
-            "brueghel",
-            "casteels",
-            "christus",
-            "goes",
-            "gossart",
-            "half-lengths",
-            "flmalle",
-            "flmalle",
-            "mor van dashorst",
-            "rubens",
-            "son",
-            "stradanus",
-            "uden",
-            "unknown master"
-        ],
-        "creation_year": [
-            1725.0,
-            1540.0,
-            1675.0,
-            1610.0,
-            1728.0,
-            1452.0,
-            1480.0,
-            1509.0,
-            1530.0,
-            1425.0,
-            1425.0,
-            1574.0,
-            1611.0,
-            1675.0,
-            1570.0,
-            1625.0,
-            1516.0
-        ],
-        "century": [
-            18.0,
-            16.0,
-            17.0,
-            17.0,
-            18.0,
-            15.0,
-            15.0,
-            16.0,
-            16.0,
-            15.0,
-            15.0,
-            16.0,
-            17.0,
-            17.0,
-            16.0,
-            17.0,
-            16.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/b\/beschey\/assumpti.html",
-            "https:\/\/www.wga.hu\/html\/b\/bles\/paradise.html",
-            "https:\/\/www.wga.hu\/html\/b\/bloemen\/pieter\/drovers.html",
-            "https:\/\/www.wga.hu\/html\/b\/bruegel\/jan_e\/1\/coastal.html",
-            "https:\/\/www.wga.hu\/html\/c\/casteels\/chickens.html",
-            "https:\/\/www.wga.hu\/html\/c\/christus\/1\/annuncia.html",
-            "https:\/\/www.wga.hu\/html\/g\/goes\/deathvir\/death_v6.html",
-            "https:\/\/www.wga.hu\/html\/g\/gossart\/08drawin\/48drawin.html",
-            "https:\/\/www.wga.hu\/html\/m\/master\/female\/catherin.html",
-            "https:\/\/www.wga.hu\/html\/m\/master\/flemalle\/nativity\/nativi_1.html",
-            "https:\/\/www.wga.hu\/html\/m\/master\/flemalle\/nativity\/nativi_2.html",
-            "https:\/\/www.wga.hu\/html\/m\/mor\/7goltziu.html",
-            "https:\/\/www.wga.hu\/html\/r\/rubens\/61other\/051susan.html",
-            "https:\/\/www.wga.hu\/html\/s\/son\/pronk.html",
-            "https:\/\/www.wga.hu\/html\/s\/stradanu\/alchemix.html",
-            "https:\/\/www.wga.hu\/html\/u\/uden\/landcart.html",
-            "https:\/\/www.wga.hu\/html\/m\/master\/zunk_fl\/16_paint\/1\/13tripty.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/b\/beschey\/assumpti.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bles\/paradise.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bloemen\/pieter\/drovers.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bruegel\/jan_e\/1\/coastal.jpg",
-            "http:\/\/www.wga.hu\/art\/c\/casteels\/chickens.jpg",
-            "http:\/\/www.wga.hu\/art\/c\/christus\/1\/annuncia.jpg",
-            "http:\/\/www.wga.hu\/art\/g\/goes\/deathvir\/death_v6.jpg",
-            "http:\/\/www.wga.hu\/art\/g\/gossart\/08drawin\/48drawin.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/master\/female\/catherin.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/master\/flemalle\/nativity\/nativi_1.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/master\/flemalle\/nativity\/nativi_2.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/mor\/7goltziu.jpg",
-            "http:\/\/www.wga.hu\/art\/r\/rubens\/61other\/051susan.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/son\/pronk.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/stradanu\/alchemix.jpg",
-            "http:\/\/www.wga.hu\/art\/u\/uden\/landcart.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/master\/zunk_fl\/16_paint\/1\/13tripty.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "graphics",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting"
-        ],
-        "original_id_in_collection": [
-            "4221",
-            "4490",
-            "4551",
-            "6296",
-            "7871",
-            "8505",
-            "16593",
-            "17251",
-            "24363",
-            "24416",
-            "24417",
-            "28372",
-            "35186",
-            "37188",
-            "37683",
-            "39917",
-            "40439"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            4220,
-            4489,
-            4550,
-            6295,
-            7867,
-            8501,
-            16589,
-            17247,
-            24357,
-            24410,
-            24411,
-            28365,
-            35179,
-            37181,
-            37676,
-            39910,
-            40432
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "drawing",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting"
-        ],
-        "geocoded": [
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#bfb9a7', u'#a5a194', u'#a48d78', u'#987358', u'#7a8b8d', u'#685f51', u'#573926', u'#220d0b', u'#8e583f', u'#803c2b', u'#612218', u'#312620']",
-            "[u'#bca97f', u'#9b8b62', u'#2b2513', u'#1f1509', u'#776c46', u'#604e2b', u'#453e23', u'#3b2c15', u'#090603', u'#030001', u'#000003', u'#000000']",
-            "[u'#99977d', u'#87816b', u'#6d654e', u'#141520', u'#878f83', u'#b6c8c6', u'#9eaeaa', u'#8b6c51', u'#694639', u'#4c4039', u'#402e2f', u'#25222b']",
-            "[u'#f4ebc8', u'#acb3a7', u'#92a19b', u'#8b7f4e', u'#845f1c', u'#5d5b39', u'#472f0d', u'#2f210c', u'#e4dec9', u'#d0d2c2', u'#b9c6c2', u'#603609']",
-            "[u'#5e777b', u'#513f21', u'#261f14', u'#aeb095', u'#878e7b', u'#7f7a5d', u'#755e39', u'#5d5a3d', u'#4b4e32', u'#44341b', u'#403e25', u'#363620']",
-            "[u'#9f5d43', u'#742d2b', u'#69473e', u'#472b28', u'#211b1c', u'#1b1516', u'#150f10', u'#ebd0ba', u'#c7a086', u'#c07c55', u'#a5765d', u'#322221']",
-            "[u'#c1a797', u'#b9351d', u'#b18364', u'#855338', u'#6275ac', u'#e8dcd0', u'#dcc4b1', u'#857975', u'#7b2c26', u'#634a3f', u'#454a6a', u'#2e2026']",
-            "[u'#dccfb6', u'#dac9ad', u'#564d3b', u'#f1e4cb', u'#eadcc3', u'#e6d8be', u'#e4d4b9', u'#e2d0b3', u'#d3c6ae', u'#c8baa1', u'#afa28c', u'#918672']",
-            "[u'#d5ab73', u'#5b291b', u'#291510', u'#1b110e', u'#130b0a', u'#110908', u'#0c0706', u'#0a0505', u'#080303', u'#1b0b09', u'#9b5e36', u'#411611']",
-            "[u'#d4c7b5', u'#ba3f34', u'#b05945', u'#aa2f28', u'#785547', u'#75372c', u'#d47e64', u'#d15a48', u'#c4a087', u'#997c66', u'#4a302f', u'#311817']",
-            "[u'#5b3d3a', u'#482727', u'#362324', u'#271b1b', u'#f0d4b2', u'#cba07e', u'#b37a5f', u'#a9423a', u'#8a6853', u'#772a28', u'#2a2021', u'#241616']",
-            "[u'#d7ad89', u'#45392f', u'#362920', u'#30271f', u'#1e1710', u'#59483d', u'#413229', u'#3c3027', u'#372e24', u'#2e221a', u'#262018', u'#231c15']",
-            "[u'#c6a365', u'#a57f4e', u'#57290d', u'#42230e', u'#2a1104', u'#ddc680', u'#8d602e', u'#804219', u'#673c19', u'#5a2008', u'#513218', u'#371e0c']",
-            "[u'#846d3e', u'#674d27', u'#4b351d', u'#393328', u'#2e271f', u'#b19866', u'#484437', u'#33281d', u'#322e26', u'#29261f', u'#22221e', u'#1c1c17']",
-            "[u'#d0c39b', u'#ab956b', u'#7c4b34', u'#7b6b4d', u'#5a4330', u'#362f25', u'#2a231b', u'#161b16', u'#9b764e', u'#413c30', u'#0a1411', u'#030c0a']",
-            "[u'#b5b9a6', u'#898962', u'#58572e', u'#563d08', u'#44350c', u'#362d0e', u'#282917', u'#232110', u'#1d190a', u'#9fa48c', u'#7a7242', u'#745c16']",
-            "[u'#c5bdb4', u'#bfbdc0', u'#bdbdc0', u'#bfbdbe', u'#b49b7c', u'#a66d3c', u'#613924', u'#140f10', u'#c6c2bc', u'#81664a', u'#7b5231', u'#28221e']"
-        ],
-        "dominant_color": [
-            "#220d0b",
-            "#000000",
-            "#141520",
-            "#acb3a7",
-            "#363620",
-            "#9f5d43",
-            "#6275ac",
-            "#e4d4b9",
-            "#291510",
-            "#785547",
-            "#5b3d3a",
-            "#45392f",
-            "#42230e",
-            "#22221e",
-            "#161b16",
-            "#1d190a",
-            "#a66d3c"
-        ],
-        "palette_count": [
-            "[3891, 4104, 4010, 4091, 6000, 4450, 6271, 9003, 4503, 6302, 5806, 7105]",
-            "[3998, 4978, 5137, 6533, 7180, 8329, 7414, 5183, 1278, 327, 372, 14807]",
-            "[3801, 6984, 4643, 8287, 4187, 4302, 3747, 3455, 5502, 5504, 6917, 8207]",
-            "[4820, 7229, 6570, 5476, 4431, 5880, 6255, 6618, 3374, 4100, 6012, 4771]",
-            "[5626, 5353, 6676, 3679, 3558, 4238, 3358, 4830, 4653, 6215, 8092, 9258]",
-            "[8041, 3410, 6163, 7194, 5462, 5856, 5843, 4174, 3679, 5575, 3895, 6244]",
-            "[5825, 5190, 4708, 4232, 10767, 4074, 5278, 1564, 3013, 6738, 6723, 7424]",
-            "[6335, 5485, 6348, 4186, 6099, 6241, 6692, 3767, 4830, 5944, 4338, 5271]",
-            "[4221, 5414, 8104, 5900, 7746, 6484, 6691, 5117, 3768, 2608, 4972, 4511]",
-            "[3955, 5155, 1322, 4539, 8553, 7859, 3890, 5275, 4394, 4585, 7709, 8300]",
-            "[7793, 6742, 6569, 6634, 3718, 4536, 4107, 6017, 5557, 3463, 4676, 5724]",
-            "[3941, 7129, 5911, 4970, 5645, 4429, 5379, 6441, 5695, 5502, 5125, 5369]",
-            "[3995, 4097, 4331, 10412, 7196, 4411, 4334, 4147, 4866, 3524, 6363, 7860]",
-            "[4433, 3494, 3775, 5609, 6389, 3858, 4435, 5168, 6074, 6811, 8806, 6684]",
-            "[3488, 5103, 3595, 3749, 5049, 5223, 6190, 8611, 4257, 3673, 8199, 8399]",
-            "[4238, 6711, 5074, 5415, 5345, 6069, 4768, 5679, 6717, 4898, 5397, 5225]",
-            "[713, 9870, 286, 689, 3777, 10678, 7069, 9599, 324, 5295, 10418, 6818]"
+        "artwork_name": [
+            "assumption of the virgin",
+            "the paradise",
+            "drovers with cattle and goats fording a stream",
+            "coastal landscape",
+            "a family of chickens",
+            "annunciation",
+            "the death of the virgin (detail)",
+            "standing warrior in fantastic armour with a halberd",
+            "st catherine",
+            "the nativity (detail)",
+            "the nativity (detail)",
+            "portrait of hubert goltzius",
+            "susanna and the elders",
+            "a 'pronk' still-life",
+            "an alchemist's laboratory (detail)",
+            "landscape with a cart crossing a river",
+            "triptych with the holy family"
         ]
     },
     "CHN": {
-        "id": [
-            "f82adfa5-e1f7-4ca6-8410-db6fee6740c4"
-        ],
-        "artwork_name": [
-            "unknown"
+        "artist_row": {
+            "wen zhengming": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP153576.jpg"
+                ],
+                "creation_year": [
+                    1644.0
+                ],
+                "dominant_color": [
+                    [
+                        240,
+                        227,
+                        210
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1644.0
         ],
         "artist_full_name": [
             "wen zhengming"
         ],
-        "artist_first_name": [
-            "Wen"
-        ],
-        "artist_last_name": [
-            "Zhengming"
-        ],
-        "creation_year": [
-            1644.0
-        ],
-        "century": [
-            17.0
-        ],
-        "source_url": [
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/45784"
-        ],
-        "image_url": [
-            "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP153576.jpg"
-        ],
-        "collection_origins": [
-            "The Met 17"
-        ],
-        "artwork_type": [
-            "calligraphy"
-        ],
-        "original_id_in_collection": [
-            "45784"
-        ],
-        "created_at": [
-            "2017-12-06"
-        ],
-        "last_modified": [
-            "2017-12-21"
-        ],
-        "omni_id": [
-            5025864
-        ],
-        "created_by_id": [
-            1
-        ],
-        "general_type": [
-            "drawing"
-        ],
-        "geocoded": [
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#f0e3d2', u'#ebdbc6', u'#d8c1a1', u'#cdaf8a', u'#c0a582', u'#f0ddc5', u'#816f5a', u'#f7eedf', u'#f4eada', u'#f3e6d6', u'#e7d0b1', u'#e3c8a7']"
-        ],
-        "dominant_color": [
-            "#f0e3d2"
-        ],
-        "palette_count": [
-            "[9362, 2887, 5872, 4825, 6863, 1287, 4980, 5007, 6156, 6174, 7320, 4803]"
+        "artwork_name": [
+            "unknown"
         ]
     },
     "DEU": {
-        "id": [
-            "6eef799d-b8fb-46d9-a537-63305063518f",
-            "99a5c708-4eef-4afc-87b2-52ba34a3a169",
-            "bce6bb5f-223d-4465-be87-4d94d9b75b0c",
-            "2449c98e-1aff-4d9a-9621-8280d0753081",
-            "7016077a-af01-489a-b120-870269ba2e13",
-            "6033c6d9-130a-4f06-9dfe-a70d2a98760c",
-            "545d2f46-c0e3-4a5f-949f-5cc30e5f3418",
-            "c9ae1f87-0303-4b15-aa50-34f170637e0e",
-            "d8da94f0-0062-4e75-b610-7289a6cf6a4f"
-        ],
-        "artwork_name": [
-            "small passion 27. the lamentation for christ",
-            "view of the waterfall at anitrella",
-            "children expecting the christmas feast",
-            "title page of the coverdale bible",
-            "the flax barn at laren",
-            "madonna of the rose garden",
-            "the vienna coronation gospels",
-            "christ in majesty",
-            "chalice"
+        "artist_row": {
+            "albrecht drer": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/d\/durer\/2\/12\/7smallp\/3\/27_small.jpg"
+                ],
+                "creation_year": [
+                    1511.0
+                ],
+                "dominant_color": [
+                    [
+                        59,
+                        59,
+                        59
+                    ]
+                ]
+            },
+            "jacob philipp hackert": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/h\/hackert\/philipp\/w_anitre.jpg"
+                ],
+                "creation_year": [
+                    1793.0
+                ],
+                "dominant_color": [
+                    [
+                        124,
+                        106,
+                        68
+                    ]
+                ]
+            },
+            "ferdinand theodor hildebrandt": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/h\/hildebr\/christma.jpg"
+                ],
+                "creation_year": [
+                    1840.0
+                ],
+                "dominant_color": [
+                    [
+                        31,
+                        19,
+                        26
+                    ]
+                ]
+            },
+            "hans the younger holbein": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/h\/holbein\/hans_y\/2drawing\/woodcuts\/2titlepb.jpg"
+                ],
+                "creation_year": [
+                    1535.0
+                ],
+                "dominant_color": [
+                    [
+                        18,
+                        17,
+                        23
+                    ]
+                ]
+            },
+            "max liebermann": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/l\/lieberma\/03flaxba.jpg"
+                ],
+                "creation_year": [
+                    1887.0
+                ],
+                "dominant_color": [
+                    [
+                        11,
+                        12,
+                        16
+                    ]
+                ]
+            },
+            "stefan lochner": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/l\/lochner\/madonna.jpg"
+                ],
+                "creation_year": [
+                    1440.0
+                ],
+                "dominant_color": [
+                    [
+                        15,
+                        12,
+                        12
+                    ]
+                ]
+            },
+            "german miniaturist": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/0751-800\/2german\/4vienna1.jpg"
+                ],
+                "creation_year": [
+                    775.0
+                ],
+                "dominant_color": [
+                    [
+                        81,
+                        46,
+                        29
+                    ]
+                ]
+            },
+            "german romanesque painter": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/zgothic\/mural\/12c2\/09german.jpg"
+                ],
+                "creation_year": [
+                    1180.0
+                ],
+                "dominant_color": [
+                    [
+                        63,
+                        50,
+                        55
+                    ]
+                ]
+            },
+            "german unknown goldsmith": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/zzdeco\/1gold\/16c\/07g_1506.jpg"
+                ],
+                "creation_year": [
+                    1525.0
+                ],
+                "dominant_color": [
+                    [
+                        78,
+                        66,
+                        50
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1511.0,
+            1793.0,
+            1840.0,
+            1535.0,
+            1887.0,
+            1440.0,
+            775.0,
+            1180.0,
+            1525.0
         ],
         "artist_full_name": [
             "albrecht drer",
@@ -585,284 +541,130 @@
             "german romanesque painter",
             "german unknown goldsmith"
         ],
-        "artist_first_name": [
-            "albrecht",
-            "jacob philipp",
-            "ferdinand theodor",
-            "hans the younger",
-            "max",
-            "stefan",
-            "german",
-            "german",
-            "german"
-        ],
-        "artist_last_name": [
-            "drer",
-            "hackert",
-            "hildebrandt",
-            "holbein",
-            "liebermann",
-            "lochner",
-            "miniaturist",
-            "romanesque painter",
-            "unknown goldsmith"
-        ],
-        "creation_year": [
-            1511.0,
-            1793.0,
-            1840.0,
-            1535.0,
-            1887.0,
-            1440.0,
-            775.0,
-            1180.0,
-            1525.0
-        ],
-        "century": [
-            16.0,
-            18.0,
-            19.0,
-            16.0,
-            19.0,
-            15.0,
-            8.0,
-            12.0,
-            16.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/d\/durer\/2\/12\/7smallp\/3\/27_small.html",
-            "https:\/\/www.wga.hu\/html\/h\/hackert\/philipp\/w_anitre.html",
-            "https:\/\/www.wga.hu\/html\/h\/hildebr\/christma.html",
-            "https:\/\/www.wga.hu\/html\/h\/holbein\/hans_y\/2drawing\/woodcuts\/2titlepb.html",
-            "https:\/\/www.wga.hu\/html\/l\/lieberma\/03flaxba.html",
-            "https:\/\/www.wga.hu\/html\/l\/lochner\/madonna.html",
-            "https:\/\/www.wga.hu\/html\/zgothic\/miniatur\/0751-800\/2german\/4vienna1.html",
-            "https:\/\/www.wga.hu\/html\/zgothic\/mural\/12c2\/09german.html",
-            "https:\/\/www.wga.hu\/html\/zzdeco\/1gold\/16c\/07g_1506.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/d\/durer\/2\/12\/7smallp\/3\/27_small.jpg",
-            "http:\/\/www.wga.hu\/art\/h\/hackert\/philipp\/w_anitre.jpg",
-            "http:\/\/www.wga.hu\/art\/h\/hildebr\/christma.jpg",
-            "http:\/\/www.wga.hu\/art\/h\/holbein\/hans_y\/2drawing\/woodcuts\/2titlepb.jpg",
-            "http:\/\/www.wga.hu\/art\/l\/lieberma\/03flaxba.jpg",
-            "http:\/\/www.wga.hu\/art\/l\/lochner\/madonna.jpg",
-            "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/0751-800\/2german\/4vienna1.jpg",
-            "http:\/\/www.wga.hu\/art\/zgothic\/mural\/12c2\/09german.jpg",
-            "http:\/\/www.wga.hu\/art\/zzdeco\/1gold\/16c\/07g_1506.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "graphics",
-            "painting",
-            "painting",
-            "graphics",
-            "painting",
-            "painting",
-            "illumination",
-            "painting",
-            "metalwork"
-        ],
-        "original_id_in_collection": [
-            "12508",
-            "18683",
-            "19349",
-            "19604",
-            "21944",
-            "22424",
-            "27432",
-            "34525",
-            "40184"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            12504,
-            18679,
-            19345,
-            19600,
-            21939,
-            22418,
-            27426,
-            34518,
-            40177
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "drawing",
-            "painting",
-            "painting",
-            "drawing",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "craft"
-        ],
-        "geocoded": [
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#ffffff', u'#fdfdfd', u'#f9f9f9', u'#f1f1f1', u'#737373', u'#4d4d4d', u'#3b3b3b', u'#e2e2e2', u'#c2c2c2', u'#a2a2a2', u'#8e8e8e', u'#5a5a5a']",
-            "[u'#b5976f', u'#8f876e', u'#7b5526', u'#524d31', u'#342b15', u'#ede2ca', u'#cedcdb', u'#b5ced8', u'#7c6a44', u'#65522a', u'#52401f', u'#4d3416']",
-            "[u'#ab855b', u'#5b3122', u'#322524', u'#1f131a', u'#140f1b', u'#0b0513', u'#d4be9d', u'#835631', u'#5c4633', u'#452e24', u'#3d1616', u'#110a17']",
-            "[u'#eeedf6', u'#acabb3', u'#88878e', u'#3c3b41', u'#2c2b31', u'#121117', u'#f9f8fe', u'#e1e0ea', u'#d3d2db', u'#c7c6cf', u'#6f6e75', u'#535259']",
-            "[u'#8c7366', u'#715d53', u'#252124', u'#121317', u'#c6b2a7', u'#5f4a41', u'#54443d', u'#483c39', u'#3d302d', u'#322a2a', u'#18181d', u'#0b0c10']",
-            "[u'#ddb58b', u'#c79f78', u'#a77552', u'#81674e', u'#76492f', u'#46453e', u'#19191a', u'#f0cca5', u'#b28a66', u'#442c1e', u'#21282f', u'#0f0c0c']",
-            "[u'#dcc5a7', u'#713923', u'#672d1a', u'#5c3926', u'#422d1e', u'#3f2517', u'#fffeff', u'#94664a', u'#813e22', u'#732e19', u'#5d2c1a', u'#512e1d']",
-            "[u'#aa8d69', u'#9c7550', u'#784d34', u'#27191e', u'#decead', u'#c2aa82', u'#94623d', u'#746255', u'#604034', u'#5b3226', u'#594c49', u'#3f3237']",
-            "[u'#cac0ae', u'#cdcdc4', u'#cccbc2', u'#c9c9c2', u'#d9d6c5', u'#cacac2', u'#c8c2c1', u'#c7c6bf', u'#c0beba', u'#a1885f', u'#ccc7c0', u'#4e4232']"
-        ],
-        "dominant_color": [
-            "#3b3b3b",
-            "#7c6a44",
-            "#1f131a",
-            "#121117",
-            "#0b0c10",
-            "#0f0c0c",
-            "#512e1d",
-            "#3f3237",
-            "#4e4232"
-        ],
-        "palette_count": [
-            "[6566, 4935, 5050, 4669, 5978, 5507, 6652, 4528, 6153, 5291, 4936, 5271]",
-            "[3926, 3650, 4350, 6199, 7004, 6091, 3168, 7537, 7620, 5273, 6370, 4348]",
-            "[4507, 4687, 8188, 9719, 4243, 6435, 3618, 4253, 4098, 5549, 4202, 6037]",
-            "[5266, 5789, 4775, 5225, 5055, 6871, 4407, 6398, 4977, 5388, 4958, 6427]",
-            "[6474, 6243, 6024, 5198, 2617, 5549, 5144, 6174, 5119, 5011, 5296, 6687]",
-            "[5724, 6248, 4759, 5154, 5998, 4579, 5751, 3762, 5626, 5861, 4704, 7370]",
-            "[3521, 4971, 6614, 5268, 4223, 5339, 5126, 5671, 5154, 4830, 7159, 7660]",
-            "[6479, 5402, 5517, 7447, 3530, 5518, 4575, 5719, 4192, 4692, 4865, 7600]",
-            "[3587, 8276, 5921, 4619, 1598, 5895, 6356, 5495, 6216, 6013, 3048, 8512]"
+        "artwork_name": [
+            "small passion 27. the lamentation for christ",
+            "view of the waterfall at anitrella",
+            "children expecting the christmas feast",
+            "title page of the coverdale bible",
+            "the flax barn at laren",
+            "madonna of the rose garden",
+            "the vienna coronation gospels",
+            "christ in majesty",
+            "chalice"
         ]
     },
     "DNK": {
-        "id": [
-            "88539bb0-bb7e-4bd9-b52b-3ca8b959e1d8"
-        ],
-        "artwork_name": [
-            "girl looking out of a skylight"
+        "artist_row": {
+            "laurits andersen ring": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/r\/ring_lau\/skylight.jpg"
+                ],
+                "creation_year": [
+                    1885.0
+                ],
+                "dominant_color": [
+                    [
+                        18,
+                        13,
+                        14
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1885.0
         ],
         "artist_full_name": [
             "laurits andersen ring"
         ],
-        "artist_first_name": [
-            "laurits andersen"
-        ],
-        "artist_last_name": [
-            "ring"
-        ],
-        "creation_year": [
-            1885.0
-        ],
-        "century": [
-            19.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/r\/ring_lau\/skylight.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/r\/ring_lau\/skylight.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "painting"
-        ],
-        "original_id_in_collection": [
-            "34003"
-        ],
-        "created_at": [
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2017-12-21"
-        ],
-        "omni_id": [
-            33996
-        ],
-        "created_by_id": [
-            1
-        ],
-        "general_type": [
-            "painting"
-        ],
-        "geocoded": [
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#e1cfc5', u'#ad8f74', u'#8e6349', u'#6c533f', u'#39271f', u'#241b19', u'#1f1514', u'#120d0e', u'#ceb8aa', u'#4e382a', u'#2d201c', u'#181213']"
-        ],
-        "dominant_color": [
-            "#120d0e"
-        ],
-        "palette_count": [
-            "[4151, 6256, 5120, 4761, 5845, 4552, 5259, 7464, 5046, 6078, 4326, 6678]"
+        "artwork_name": [
+            "girl looking out of a skylight"
         ]
     },
     "ESP": {
-        "id": [
-            "01eb1217-523c-4b6e-8ed7-29cd6ce73d95",
-            "78dcac03-848f-4db0-922f-8e51f02f7127",
-            "063a400a-58a0-4c19-b51a-5bc48653a6fb",
-            "a6ceafc1-ac8a-4873-8d48-20220a7dc6ab",
-            "6581cd38-1b2e-4cf3-8ec6-a406f1e5e92b"
-        ],
-        "artwork_name": [
-            "scenes from the life of st francis",
-            "apostle st thomas",
-            "interior view",
-            "the holy family",
-            "plaque with the virgin in mourning"
+        "artist_row": {
+            "nicols francs": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/f\/frances\/s_franci.jpg"
+                ],
+                "creation_year": [
+                    1440.0
+                ],
+                "dominant_color": [
+                    [
+                        91,
+                        71,
+                        57
+                    ]
+                ]
+            },
+            "el greco": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/g\/greco_el\/18\/1808grec.jpg"
+                ],
+                "creation_year": [
+                    1610.0
+                ],
+                "dominant_color": [
+                    [
+                        52,
+                        44,
+                        52
+                    ]
+                ]
+            },
+            "francisco hurtado izquierdo": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/h\/hurtado\/1sagrari.jpg"
+                ],
+                "creation_year": [
+                    1732.0
+                ],
+                "dominant_color": [
+                    [
+                        29,
+                        25,
+                        11
+                    ]
+                ]
+            },
+            "bartolom esteban murillo": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/murillo\/2\/204muril.jpg"
+                ],
+                "creation_year": [
+                    1660.0
+                ],
+                "dominant_color": [
+                    [
+                        53,
+                        37,
+                        38
+                    ]
+                ]
+            },
+            "unknown": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/md\/original\/sf17-190-977s1.jpg"
+                ],
+                "creation_year": [
+                    1350.0
+                ],
+                "dominant_color": [
+                    [
+                        35,
+                        51,
+                        89
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1440.0,
+            1610.0,
+            1732.0,
+            1660.0,
+            1350.0
         ],
         "artist_full_name": [
             "nicols francs",
@@ -871,167 +673,250 @@
             "bartolom esteban murillo",
             "unknown"
         ],
-        "artist_first_name": [
-            "nicols",
-            "el",
-            "francisco",
-            "bartolom esteban",
-            "Unknown"
-        ],
-        "artist_last_name": [
-            "francs",
-            "greco",
-            "hurtado izquierdo",
-            "murillo",
-            "Unknown"
-        ],
-        "creation_year": [
-            1440.0,
-            1610.0,
-            1732.0,
-            1660.0,
-            1350.0
-        ],
-        "century": [
-            15.0,
-            17.0,
-            18.0,
-            17.0,
-            14.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/f\/frances\/s_franci.html",
-            "https:\/\/www.wga.hu\/html\/g\/greco_el\/18\/1808grec.html",
-            "https:\/\/www.wga.hu\/html\/h\/hurtado\/1sagrari.html",
-            "https:\/\/www.wga.hu\/html\/m\/murillo\/2\/204muril.html",
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/464775"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/f\/frances\/s_franci.jpg",
-            "http:\/\/www.wga.hu\/art\/g\/greco_el\/18\/1808grec.jpg",
-            "http:\/\/www.wga.hu\/art\/h\/hurtado\/1sagrari.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/murillo\/2\/204muril.jpg",
-            "https:\/\/images.metmuseum.org\/CRDImages\/md\/original\/sf17-190-977s1.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "The Met 17"
-        ],
-        "artwork_type": [
-            "painting",
-            "painting",
-            "architecture",
-            "painting",
-            "enamels-basse taille"
-        ],
-        "original_id_in_collection": [
-            "13882",
-            "18049",
-            "19943",
-            "28871",
-            "464775"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-12-16"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            13878,
-            18045,
-            19938,
-            28864,
-            5166832
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "painting",
-            "painting",
-            "photograph",
-            "painting",
-            "unknown"
-        ],
-        "geocoded": [
-            "f",
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#f2cd95', u'#ecbb83', u'#d9b583', u'#d5a573', u'#d29365', u'#b28d65', u'#80553b', u'#5b4739', u'#3f271b', u'#fce4ac', u'#ad744e', u'#8d6e52']",
-            "[u'#c6b99b', u'#2a222f', u'#33232b', u'#221b2a', u'#837a6b', u'#5c4c48', u'#494041', u'#413235', u'#342c34', u'#2a1c27', u'#201625', u'#1a101f']",
-            "[u'#e5cfad', u'#79694b', u'#6c5939', u'#554d37', u'#332d1a', u'#1d190b', u'#f6e8cb', u'#ccb694', u'#b6a07c', u'#aa9067', u'#8d8065', u'#47381f']",
-            "[u'#604d42', u'#513934', u'#442b2c', u'#352526', u'#2d1317', u'#c6a67b', u'#9a7448', u'#835637', u'#603e35', u'#443432', u'#3e2a2b', u'#3b2829']",
-            "[u'#dccfc2', u'#d2c3b8', u'#ccbbaf', u'#c4b9ad', u'#afa997', u'#9c8f78', u'#866f5b', u'#233359', u'#cfc0b4', u'#56444b', u'#4f6060', u'#4a7e71']"
-        ],
-        "dominant_color": [
-            "#5b4739",
-            "#342c34",
-            "#1d190b",
-            "#352526",
-            "#233359"
-        ],
-        "palette_count": [
-            "[4857, 4110, 3544, 5530, 4475, 5742, 6662, 9318, 6917, 3878, 5140, 5363]",
-            "[4188, 5965, 5439, 4890, 3769, 4430, 4987, 7183, 7332, 5478, 6050, 5825]",
-            "[5521, 6151, 4546, 5801, 4730, 7323, 3738, 5941, 6191, 4599, 5523, 5472]",
-            "[4565, 5413, 3521, 9124, 6006, 3679, 4786, 3615, 4374, 6973, 7111, 6369]",
-            "[3078, 5932, 5265, 8116, 4579, 4816, 4791, 8167, 5066, 6282, 5039, 4405]"
+        "artwork_name": [
+            "scenes from the life of st francis",
+            "apostle st thomas",
+            "interior view",
+            "the holy family",
+            "plaque with the virgin in mourning"
         ]
     },
     "FRA": {
-        "id": [
-            "593b7a9e-ac1a-4eff-b328-6e9db960347d",
-            "837d4deb-1211-479e-9747-4c507b3a6508",
-            "f3f009b4-fc15-4568-937c-3d1d70c22708",
-            "e75ad016-689b-4a0d-8d86-474d96fcde65",
-            "96faab11-9d19-42be-92c7-408e4a3a2990",
-            "a86e1d4b-6bf5-4490-9f60-fdccaf947111",
-            "7cd8c7fc-da1c-495f-85ab-ff6f4194ffa0",
-            "d474823a-a59e-44f1-ad91-40875a606446",
-            "b82b16fa-8dd9-4f22-aaf7-de75ff5b0a99",
-            "696c9cd7-7313-4fe3-a428-646a6796b287",
-            "6b11bec7-6cce-43c6-a8e0-c3675539fbb3",
-            "dea7a065-b710-4ff7-b327-a0fb9e2e643a",
-            "a55f5dea-ddb1-4cb4-94c7-1f70178eefbf",
-            "caf1e153-af14-48a7-b926-25fb2b0953d5",
-            "13269169-4495-4ab9-a960-890f07a59bb1"
-        ],
-        "artwork_name": [
-            "mont sainte-victoire",
-            "louis-auguste schwiter",
-            "virgin and child",
-            "madame mette gauguin",
-            "west portal (detail)",
-            "picture bible (psalter-fragment)",
-            "le rgime du corps by aldobrandino of siena",
-            "flowers in blue vase",
-            "milo of croton",
-            "the third church at cluny",
-            "view of the siege of havana, 1762",
-            "circus sideshow",
-            "abel dying",
-            "apostle (detail)",
-            "diptych with virgin and child and crucifixion"
+        "artist_row": {
+            "paul czanne": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/c\/cezanne\/4\/3lands01.jpg"
+                ],
+                "creation_year": [
+                    1890.0
+                ],
+                "dominant_color": [
+                    [
+                        36,
+                        36,
+                        33
+                    ]
+                ]
+            },
+            "eug?ne delacroix": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/d\/delacroi\/2\/207delac.jpg"
+                ],
+                "creation_year": [
+                    1826.0
+                ],
+                "dominant_color": [
+                    [
+                        123,
+                        110,
+                        89
+                    ]
+                ]
+            },
+            "joseph-hugues fabisch": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/f\/fabisch\/virgin_c.jpg"
+                ],
+                "creation_year": [
+                    1863.0
+                ],
+                "dominant_color": [
+                    [
+                        75,
+                        49,
+                        30
+                    ]
+                ]
+            },
+            "paul gauguin": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/g\/gauguin\/01\/early09.jpg"
+                ],
+                "creation_year": [
+                    1884.0
+                ],
+                "dominant_color": [
+                    [
+                        89,
+                        96,
+                        108
+                    ]
+                ]
+            },
+            "french medieval sculptor": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/zgothic\/1romanes\/po-12c11\/31f_1101.jpg"
+                ],
+                "creation_year": [
+                    1145.0
+                ],
+                "dominant_color": [
+                    [
+                        160,
+                        136,
+                        99
+                    ]
+                ]
+            },
+            "french miniaturist": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1151-200\/3french\/23french.jpg",
+                    "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1251-300\/2french\/71french.jpg"
+                ],
+                "creation_year": [
+                    1190.0,
+                    1285.0
+                ],
+                "dominant_color": [
+                    [
+                        38,
+                        27,
+                        22
+                    ],
+                    [
+                        29,
+                        16,
+                        24
+                    ]
+                ]
+            },
+            "adolphe monticelli": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/monticel\/flowers.jpg"
+                ],
+                "creation_year": [
+                    1871.0
+                ],
+                "dominant_color": [
+                    [
+                        121,
+                        95,
+                        31
+                    ]
+                ]
+            },
+            "pierre puget": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/p\/puget\/sculptur\/1\/08milon.jpg"
+                ],
+                "creation_year": [
+                    1671.0
+                ],
+                "dominant_color": [
+                    [
+                        71,
+                        59,
+                        54
+                    ]
+                ]
+            },
+            "mile sagot": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/sagot\/cluny1.jpg"
+                ],
+                "creation_year": [
+                    1840.0
+                ],
+                "dominant_color": [
+                    [
+                        204,
+                        205,
+                        206
+                    ]
+                ]
+            },
+            "dominic serres": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/serres\/siege2.jpg"
+                ],
+                "creation_year": [
+                    1767.0
+                ],
+                "dominant_color": [
+                    [
+                        46,
+                        41,
+                        35
+                    ]
+                ]
+            },
+            "georges seurat": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/seurat\/figures\/xcircus1.jpg"
+                ],
+                "creation_year": [
+                    1887.0
+                ],
+                "dominant_color": [
+                    [
+                        42,
+                        38,
+                        55
+                    ]
+                ]
+            },
+            "jean-baptiste stouf": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/stouf\/abel1.jpg"
+                ],
+                "creation_year": [
+                    1785.0
+                ],
+                "dominant_color": [
+                    [
+                        118,
+                        108,
+                        104
+                    ]
+                ]
+            },
+            "french unknown master": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/master\/yunk_fr\/yunk_fr1a\/02apost1.jpg"
+                ],
+                "creation_year": [
+                    1090.0
+                ],
+                "dominant_color": [
+                    [
+                        77,
+                        60,
+                        39
+                    ]
+                ]
+            },
+            "unknown": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/md\/original\/PS3DEMO.24.jpg"
+                ],
+                "creation_year": [
+                    1350.0
+                ],
+                "dominant_color": [
+                    [
+                        175,
+                        166,
+                        151
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1890.0,
+            1826.0,
+            1863.0,
+            1884.0,
+            1145.0,
+            1190.0,
+            1285.0,
+            1871.0,
+            1671.0,
+            1840.0,
+            1767.0,
+            1887.0,
+            1785.0,
+            1090.0,
+            1350.0
         ],
         "artist_full_name": [
             "paul czanne",
@@ -1050,325 +935,92 @@
             "french unknown master",
             "unknown"
         ],
-        "artist_first_name": [
-            "paul",
-            "eug?ne",
-            "joseph-hugues",
-            "paul",
-            "french",
-            "french",
-            "french",
-            "adolphe",
-            "pierre",
-            "mile",
-            "dominic",
-            "georges",
-            "jean-baptiste",
-            "french",
-            "Unknown"
-        ],
-        "artist_last_name": [
-            "czanne",
-            "delacroix",
-            "fabisch",
-            "gauguin",
-            "medieval sculptor",
-            "miniaturist",
-            "miniaturist",
-            "monticelli",
-            "puget",
-            "sagot",
-            "serres",
-            "seurat",
-            "stouf",
-            "unknown master",
-            "Unknown"
-        ],
-        "creation_year": [
-            1890.0,
-            1826.0,
-            1863.0,
-            1884.0,
-            1145.0,
-            1190.0,
-            1285.0,
-            1871.0,
-            1671.0,
-            1840.0,
-            1767.0,
-            1887.0,
-            1785.0,
-            1090.0,
-            1350.0
-        ],
-        "century": [
-            19.0,
-            19.0,
-            19.0,
-            19.0,
-            12.0,
-            12.0,
-            13.0,
-            19.0,
-            17.0,
-            19.0,
-            18.0,
-            19.0,
-            18.0,
-            11.0,
-            14.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/c\/cezanne\/4\/3lands01.html",
-            "https:\/\/www.wga.hu\/html\/d\/delacroi\/2\/207delac.html",
-            "https:\/\/www.wga.hu\/html\/f\/fabisch\/virgin_c.html",
-            "https:\/\/www.wga.hu\/html\/g\/gauguin\/01\/early09.html",
-            "https:\/\/www.wga.hu\/html\/zgothic\/1romanes\/po-12c11\/31f_1101.html",
-            "https:\/\/www.wga.hu\/html\/zgothic\/miniatur\/1151-200\/3french\/23french.html",
-            "https:\/\/www.wga.hu\/html\/zgothic\/miniatur\/1251-300\/2french\/71french.html",
-            "https:\/\/www.wga.hu\/html\/m\/monticel\/flowers.html",
-            "https:\/\/www.wga.hu\/html\/p\/puget\/sculptur\/1\/08milon.html",
-            "https:\/\/www.wga.hu\/html\/s\/sagot\/cluny1.html",
-            "https:\/\/www.wga.hu\/html\/s\/serres\/siege2.html",
-            "https:\/\/www.wga.hu\/html\/s\/seurat\/figures\/xcircus1.html",
-            "https:\/\/www.wga.hu\/html\/s\/stouf\/abel1.html",
-            "https:\/\/www.wga.hu\/html\/m\/master\/yunk_fr\/yunk_fr1a\/02apost1.html",
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/464283"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/c\/cezanne\/4\/3lands01.jpg",
-            "http:\/\/www.wga.hu\/art\/d\/delacroi\/2\/207delac.jpg",
-            "http:\/\/www.wga.hu\/art\/f\/fabisch\/virgin_c.jpg",
-            "http:\/\/www.wga.hu\/art\/g\/gauguin\/01\/early09.jpg",
-            "http:\/\/www.wga.hu\/art\/zgothic\/1romanes\/po-12c11\/31f_1101.jpg",
-            "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1151-200\/3french\/23french.jpg",
-            "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1251-300\/2french\/71french.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/monticel\/flowers.jpg",
-            "http:\/\/www.wga.hu\/art\/p\/puget\/sculptur\/1\/08milon.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/sagot\/cluny1.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/serres\/siege2.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/seurat\/figures\/xcircus1.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/stouf\/abel1.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/master\/yunk_fr\/yunk_fr1a\/02apost1.jpg",
-            "https:\/\/images.metmuseum.org\/CRDImages\/md\/original\/PS3DEMO.24.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "The Met 17"
-        ],
-        "artwork_type": [
-            "painting",
-            "painting",
-            "sculpture",
-            "painting",
-            "sculpture",
-            "illumination",
-            "illumination",
-            "painting",
-            "sculpture",
-            "graphics",
-            "painting",
-            "painting",
-            "sculpture",
-            "sculpture",
-            "ivories"
-        ],
-        "original_id_in_collection": [
-            "8284",
-            "10981",
-            "13136",
-            "14570",
-            "25133",
-            "27149",
-            "27227",
-            "28335",
-            "32181",
-            "35536",
-            "36468",
-            "36489",
-            "37671",
-            "40547",
-            "464283"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-12-15"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            8280,
-            10977,
-            13132,
-            14566,
-            25127,
-            27143,
-            27221,
-            28328,
-            32174,
-            35529,
-            36461,
-            36482,
-            37664,
-            40540,
-            5166468
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "painting",
-            "painting",
-            "sculpture",
-            "painting",
-            "sculpture",
-            "painting",
-            "painting",
-            "painting",
-            "sculpture",
-            "drawing",
-            "painting",
-            "painting",
-            "sculpture",
-            "sculpture",
-            "sculpture"
-        ],
-        "geocoded": [
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#e3e1db', u'#cccbbf', u'#9b9375', u'#5e6355', u'#4f4b39', u'#b7b8ad', u'#a2a49b', u'#868a82', u'#847652', u'#806436', u'#37403a', u'#242421']",
-            "[u'#c8af89', u'#a18b6b', u'#685339', u'#32271e', u'#221d18', u'#0d0d0a', u'#0a0906', u'#050503', u'#7b6e59', u'#594e41', u'#473e34', u'#15120f']",
-            "[u'#a68f7d', u'#9e7f62', u'#5e4d40', u'#4b311e', u'#e5ded8', u'#d0c2bb', u'#c5ac97', u'#b0a099', u'#887669', u'#7d644e', u'#755437', u'#291a13']",
-            "[u'#e2ddb9', u'#b1a993', u'#856754', u'#594d4e', u'#543f38', u'#3e3d45', u'#cec6a9', u'#8d8478', u'#59606c', u'#313846', u'#2b2a30', u'#1d181b']",
-            "[u'#ddc19a', u'#b3976f', u'#947b56', u'#8b714b', u'#786545', u'#665333', u'#f2e0c5', u'#ceb087', u'#c1a67f', u'#a08863', u'#51462c', u'#212416']",
-            "[u'#b6a391', u'#615346', u'#55251a', u'#261b16', u'#9c7c64', u'#998e76', u'#925e3f', u'#7c7a65', u'#7b5839', u'#693e28', u'#423c3c', u'#0f0605']",
-            "[u'#ecdfb7', u'#c15f27', u'#be7f47', u'#b0491e', u'#7e6b51', u'#762d1d', u'#684937', u'#272531', u'#f7f0d0', u'#c7b084', u'#343643', u'#1d1018']",
-            "[u'#d5b363', u'#070404', u'#795f1f', u'#3c3113', u'#0a0907', u'#9d7e39', u'#744411', u'#5b4010', u'#311208', u'#1d0e08', u'#120a08', u'#070605']",
-            "[u'#f7f7f3', u'#baafa2', u'#7c6b60', u'#54453e', u'#473b36', u'#e1dcd5', u'#9e9081', u'#8f8072', u'#6e5c52', u'#67544a', u'#5f5048', u'#5b4a43']",
-            "[u'#eeeff0', u'#d7d7d9', u'#cccdce', u'#b8b9ba', u'#868786', u'#717372', u'#606160', u'#383938', u'#e5e6e8', u'#dddee0', u'#a5a6a6', u'#989a99']",
-            "[u'#e2d7b5', u'#d8cfaf', u'#cac19f', u'#bfbda5', u'#807758', u'#615131', u'#2e2923', u'#ece0bd', u'#cec8a9', u'#b7b093', u'#a3a083', u'#444233']",
-            "[u'#988f96', u'#8e7d83', u'#767785', u'#686170', u'#59596d', u'#564758', u'#383950', u'#161726', u'#c0b6b7', u'#786670', u'#474256', u'#2a2637']",
-            "[u'#b9b9bf', u'#8e8786', u'#807773', u'#5f5550', u'#dcdee7', u'#d1d2d9', u'#c9cad1', u'#c2c2c9', u'#b0aeb3', u'#a19ea0', u'#858081', u'#766c68']",
-            "[u'#c9b799', u'#9f8b6a', u'#685335', u'#241d13', u'#e3d4bd', u'#d3c2a7', u'#bfae90', u'#b8a484', u'#ae9c7d', u'#8b7451', u'#7b6644', u'#4d3c27']",
-            "[u'#c8b996', u'#af9771', u'#9b9383', u'#413d30', u'#efe6c8', u'#ddd0ad', u'#afa697', u'#7e7058', u'#6e583c', u'#342a24', u'#2a2821', u'#13120d']"
-        ],
-        "dominant_color": [
-            "#242421",
-            "#7b6e59",
-            "#4b311e",
-            "#59606c",
-            "#a08863",
-            "#261b16",
-            "#1d1018",
-            "#795f1f",
-            "#473b36",
-            "#cccdce",
-            "#2e2923",
-            "#2a2637",
-            "#766c68",
-            "#4d3c27",
-            "#afa697"
-        ],
-        "palette_count": [
-            "[3745, 5661, 2921, 5940, 4411, 6530, 6611, 6635, 5241, 5464, 5525, 6852]",
-            "[3381, 5639, 3999, 4983, 4800, 5612, 5340, 6890, 7174, 5250, 6508, 5960]",
-            "[5923, 4394, 5887, 9396, 3789, 4740, 3582, 3787, 5448, 6651, 4613, 7326]",
-            "[3709, 5928, 4285, 5274, 3574, 6065, 5926, 5043, 7829, 3721, 7382, 6800]",
-            "[4452, 6928, 5903, 4937, 5984, 5048, 3911, 4333, 4993, 7191, 5029, 6827]",
-            "[3901, 5197, 3858, 8961, 3105, 4774, 3805, 5822, 4359, 6362, 7256, 8136]",
-            "[5198, 4608, 5006, 6219, 6453, 5218, 5132, 5365, 4466, 5762, 4774, 7335]",
-            "[3644, 3539, 7114, 5229, 5754, 4966, 3832, 6884, 4293, 6486, 6951, 6844]",
-            "[4866, 6583, 5893, 7227, 7337, 3750, 5585, 4855, 6060, 4474, 3806, 5100]",
-            "[4487, 5307, 7115, 6631, 6153, 5166, 5551, 6246, 4466, 4145, 5052, 5217]",
-            "[5490, 6282, 4081, 6999, 6634, 5093, 7482, 3757, 6020, 4699, 4324, 4675]",
-            "[5639, 3865, 4969, 4860, 6120, 5087, 6633, 7400, 3162, 3654, 5523, 8624]",
-            "[4333, 4735, 8208, 4247, 3998, 4756, 4284, 4003, 4979, 6186, 4327, 11480]",
-            "[4186, 6257, 7502, 7074, 3687, 4879, 4215, 4143, 5046, 4655, 4868, 9024]",
-            "[6173, 5208, 1363, 5144, 3946, 5561, 9063, 6459, 4321, 5874, 7649, 4775]"
+        "artwork_name": [
+            "mont sainte-victoire",
+            "louis-auguste schwiter",
+            "virgin and child",
+            "madame mette gauguin",
+            "west portal (detail)",
+            "picture bible (psalter-fragment)",
+            "le rgime du corps by aldobrandino of siena",
+            "flowers in blue vase",
+            "milo of croton",
+            "the third church at cluny",
+            "view of the siege of havana, 1762",
+            "circus sideshow",
+            "abel dying",
+            "apostle (detail)",
+            "diptych with virgin and child and crucifixion"
         ]
     },
     "GBR": {
-        "id": [
-            "e147ed6d-80e7-4b51-a768-3833c43c66e5",
-            "39046050-244c-4e1a-9fa8-8ec9686fdeb2",
-            "f491b76a-5b2a-4872-824c-9e8e59264472",
-            "b2579b9a-2768-4d6e-b958-ccab5c9ba1f5"
-        ],
-        "artwork_name": [
-            "stonehenge",
-            "george fulke lyttelton",
-            "lady sunderlin",
-            "head of st john the baptist"
+        "artist_row": {
+            "john constable": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/c\/constabl\/stonehen.jpg"
+                ],
+                "creation_year": [
+                    1835.0
+                ],
+                "dominant_color": [
+                    [
+                        136,
+                        115,
+                        105
+                    ]
+                ]
+            },
+            "prince hoare": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/h\/hoare\/prince\/lyttelto.jpg"
+                ],
+                "creation_year": [
+                    1784.0
+                ],
+                "dominant_color": [
+                    [
+                        26,
+                        16,
+                        12
+                    ]
+                ]
+            },
+            "sir joshua reynolds": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/r\/reynolds\/sunderli.jpg"
+                ],
+                "creation_year": [
+                    1786.0
+                ],
+                "dominant_color": [
+                    [
+                        4,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "english unknown master": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/master\/yunk_en\/headjohn.jpg"
+                ],
+                "creation_year": [
+                    1400.0
+                ],
+                "dominant_color": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1835.0,
+            1784.0,
+            1786.0,
+            1400.0
         ],
         "artist_full_name": [
             "john constable",
@@ -1376,192 +1028,101 @@
             "sir joshua reynolds",
             "english unknown master"
         ],
-        "artist_first_name": [
-            "john",
-            "prince",
-            "sir joshua",
-            "english"
-        ],
-        "artist_last_name": [
-            "constable",
-            "hoare",
-            "reynolds",
-            "unknown master"
-        ],
-        "creation_year": [
-            1835.0,
-            1784.0,
-            1786.0,
-            1400.0
-        ],
-        "century": [
-            19.0,
-            18.0,
-            18.0,
-            15.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/c\/constabl\/stonehen.html",
-            "https:\/\/www.wga.hu\/html\/h\/hoare\/prince\/lyttelto.html",
-            "https:\/\/www.wga.hu\/html\/r\/reynolds\/sunderli.html",
-            "https:\/\/www.wga.hu\/html\/m\/master\/yunk_en\/headjohn.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/c\/constabl\/stonehen.jpg",
-            "http:\/\/www.wga.hu\/art\/h\/hoare\/prince\/lyttelto.jpg",
-            "http:\/\/www.wga.hu\/art\/r\/reynolds\/sunderli.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/master\/yunk_en\/headjohn.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "graphics",
-            "painting",
-            "painting",
-            "sculpture"
-        ],
-        "original_id_in_collection": [
-            "9114",
-            "19376",
-            "33748",
-            "40361"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            9110,
-            19372,
-            33741,
-            40354
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "drawing",
-            "painting",
-            "painting",
-            "sculpture"
-        ],
-        "geocoded": [
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#bea9a1', u'#9e8982', u'#887369', u'#57494e', u'#4d3d3e', u'#2e252e', u'#231f2e', u'#18131e', u'#d5c2b8', u'#af9889', u'#6b5a58', u'#3b3444']",
-            "[u'#aa8b59', u'#2b1f19', u'#261f19', u'#251914', u'#231b16', u'#54361c', u'#3b281a', u'#312018', u'#291a15', u'#221611', u'#1e160f', u'#1a100c']",
-            "[u'#b3a182', u'#948168', u'#756146', u'#5f472f', u'#403325', u'#322119', u'#100b0c', u'#0a0508', u'#040103', u'#cdc0a5', u'#241c18', u'#1a1211']",
-            "[u'#b69f82', u'#574b39', u'#f1e4d4', u'#e5d4bd', u'#dcc8ac', u'#d1bea2', u'#c8b091', u'#a48c6d', u'#8d7c62', u'#030001', u'#000003', u'#000000']"
-        ],
-        "dominant_color": [
-            "#887369",
-            "#1a100c",
-            "#040103",
-            "#000000"
-        ],
-        "palette_count": [
-            "[4959, 4719, 7330, 5952, 3959, 4986, 4777, 7242, 3936, 3791, 7308, 6577]",
-            "[3803, 7032, 5940, 3528, 5475, 4897, 6203, 4525, 5095, 5426, 6271, 7341]",
-            "[5247, 6508, 4821, 4492, 6284, 5797, 5759, 4523, 6536, 4029, 5163, 6377]",
-            "[3856, 2588, 3866, 4811, 4056, 4162, 4249, 3940, 6134, 919, 720, 26235]"
+        "artwork_name": [
+            "stonehenge",
+            "george fulke lyttelton",
+            "lady sunderlin",
+            "head of st john the baptist"
         ]
     },
     "HUN": {
-        "id": [
-            "f1835a49-bebc-4420-9302-c55174ed9d85"
-        ],
-        "artwork_name": [
-            "pontifical"
+        "artist_row": {
+            "hungarian miniaturist": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1451-500\/4other\/10_1451.jpg"
+                ],
+                "creation_year": [
+                    1476.0
+                ],
+                "dominant_color": [
+                    [
+                        253,
+                        231,
+                        181
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1476.0
         ],
         "artist_full_name": [
             "hungarian miniaturist"
         ],
-        "artist_first_name": [
-            "hungarian"
-        ],
-        "artist_last_name": [
-            "miniaturist"
-        ],
-        "creation_year": [
-            1476.0
-        ],
-        "century": [
-            15.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/zgothic\/miniatur\/1451-500\/4other\/10_1451.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1451-500\/4other\/10_1451.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "illumination"
-        ],
-        "original_id_in_collection": [
-            "27605"
-        ],
-        "created_at": [
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2017-12-21"
-        ],
-        "omni_id": [
-            27599
-        ],
-        "created_by_id": [
-            1
-        ],
-        "general_type": [
-            "painting"
-        ],
-        "geocoded": [
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#fef3c1', u'#fde7b5', u'#f7d1a1', u'#f4ddad', u'#e6cda6', u'#df8b5f', u'#c5a993', u'#ac8c7e', u'#fdecba', u'#fce0af', u'#e9b083', u'#ac6651']"
-        ],
-        "dominant_color": [
-            "#fde7b5"
-        ],
-        "palette_count": [
-            "[5363, 7979, 4315, 7253, 4132, 6525, 4040, 4128, 6057, 7061, 3232, 5451]"
+        "artwork_name": [
+            "pontifical"
         ]
     },
     "JPN": {
-        "id": [
-            "824915c6-4364-4f13-a340-8f34a4396e5a",
-            "580252d6-837f-4430-a3a2-6b392e088acf",
-            "f3ec6739-f012-4573-9beb-3bc973eaf8c9",
-            "121df66d-f438-478e-85d5-9135114a3486"
-        ],
-        "artwork_name": [
-            "|the ono at ryogoku yanagibashi",
-            "|kosode with design of pines and interlocking squares",
-            "unknown",
-            "|parable of the medicinal herbs, chapter 5 of the lotus sutra"
+        "artist_row": {
+            "utagawa hiroshige": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP123560.jpg"
+                ],
+                "creation_year": [
+                    1835.0
+                ],
+                "dominant_color": [
+                    [
+                        99,
+                        88,
+                        83
+                    ]
+                ]
+            },
+            "unknown": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DT10413.jpg",
+                    "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/198066.jpg"
+                ],
+                "creation_year": [
+                    1750.0,
+                    1450.0
+                ],
+                "dominant_color": [
+                    [
+                        26,
+                        28,
+                        33
+                    ],
+                    [
+                        92,
+                        92,
+                        92
+                    ]
+                ]
+            },
+            "unidentified artist": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP234261_CRD.jpg"
+                ],
+                "creation_year": [
+                    1100.0
+                ],
+                "dominant_color": [
+                    [
+                        46,
+                        44,
+                        44
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1835.0,
+            1750.0,
+            1450.0,
+            1100.0
         ],
         "artist_full_name": [
             "utagawa hiroshige",
@@ -1569,159 +1130,305 @@
             "unknown",
             "unidentified artist"
         ],
-        "artist_first_name": [
-            "Utagawa",
-            "Unknown",
-            "Unknown",
-            "Unidentified"
-        ],
-        "artist_last_name": [
-            "Hiroshige",
-            "Unknown",
-            "Unknown",
-            "Artist"
-        ],
-        "creation_year": [
-            1835.0,
-            1750.0,
-            1450.0,
-            1100.0
-        ],
-        "century": [
-            19.0,
-            18.0,
-            15.0,
-            12.0
-        ],
-        "source_url": [
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/45305",
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/45399",
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/45550",
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/45624"
-        ],
-        "image_url": [
-            "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP123560.jpg",
-            "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DT10413.jpg",
-            "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/198066.jpg",
-            "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP234261_CRD.jpg"
-        ],
-        "collection_origins": [
-            "The Met 17",
-            "The Met 17",
-            "The Met 17",
-            "The Met 17"
-        ],
-        "artwork_type": [
-            "print",
-            "costumes",
-            "ceramics",
-            "painting"
-        ],
-        "original_id_in_collection": [
-            "45305",
-            "45399",
-            "45550",
-            "45624"
-        ],
-        "created_at": [
-            "2017-12-06",
-            "2017-12-06",
-            "2017-12-06",
-            "2017-12-06"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            5025435,
-            5025518,
-            5025653,
-            5025718
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "print",
-            "textile",
+        "artwork_name": [
+            "|the ono at ryogoku yanagibashi",
+            "|kosode with design of pines and interlocking squares",
             "unknown",
-            "painting"
-        ],
-        "geocoded": [
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#fef3e4', u'#d2bfa4', u'#c78573', u'#4a4d56', u'#fae6cf', u'#efdac0', u'#a1887c', u'#90a695', u'#7e8c85', u'#7a726b', u'#775e57', u'#635853']",
-            "[u'#ebf3f0', u'#d7dfda', u'#797b7b', u'#5d6b76', u'#5a4b46', u'#b9c4c0', u'#8d9a9c', u'#5e6064', u'#5c5c5c', u'#575858', u'#33445e', u'#1a1c21']",
-            "[u'#ebebeb', u'#d9d9d9', u'#7f7f7f', u'#f2f2f2', u'#e4e4e4', u'#dedede', u'#d0d0d0', u'#bcbcbc', u'#a0a0a0', u'#6e6e6e', u'#5c5c5c', u'#383838']",
-            "[u'#3b322c', u'#97794e', u'#7d6545', u'#655745', u'#574736', u'#493f37', u'#b49057', u'#3b3a3a', u'#343233', u'#303032', u'#2e2c2c', u'#272220']"
-        ],
-        "dominant_color": [
-            "#635853",
-            "#1a1c21",
-            "#5c5c5c",
-            "#2e2c2c"
-        ],
-        "palette_count": [
-            "[2931, 6192, 5268, 5043, 7262, 7513, 4581, 7748, 3987, 3996, 2994, 8021]",
-            "[4056, 5644, 3941, 2884, 5885, 6548, 4526, 6352, 4654, 7103, 6800, 7143]",
-            "[4499, 5404, 3770, 4434, 8044, 4237, 6279, 4515, 3586, 5712, 8390, 6666]",
-            "[5234, 4373, 4116, 4195, 4172, 4702, 4229, 6912, 6574, 7778, 9857, 3394]"
+            "|parable of the medicinal herbs, chapter 5 of the lotus sutra"
         ]
     },
     "NLD": {
-        "id": [
-            "11abf83e-9741-4a4f-b570-6e4aa95c3d10",
-            "da6ae5f5-7751-4371-b19d-035433a98b44",
-            "0ce621e3-0dcb-4f56-8682-a04f2b8287ce",
-            "d160761f-64b9-4606-9b5a-51d950ae5715",
-            "8bf97830-f581-4628-9471-8d8e24468fdf",
-            "388736e9-5f86-4ad2-8d05-f9fbd46fab4e",
-            "6e192400-b213-4312-8c6c-f9eded8510f8",
-            "ca99f0ec-4ce3-4b70-b483-e0e247d00330",
-            "04571bc6-868c-460e-99cc-7665087a9969",
-            "297eb0fd-dfa2-4f22-a869-5d816adb890d",
-            "91225441-bd2e-47a9-af04-99f2580609fb",
-            "a97c6d3c-bd99-46e3-917c-d7497a6da010",
-            "be8b16ec-483c-42b1-9b4f-71133c37863a",
-            "1e824f74-8d70-4f82-b7cd-c875bb089d82",
-            "4b0417e5-afec-4f03-81cb-eb832b58b4d9",
-            "dd1d180d-fb5f-4f86-80b4-5a4b634ef69e",
-            "a28d6d8a-72d1-4c42-8411-3177128e5c5d",
-            "29210adf-3005-4a69-bb2e-93a581921eb1",
-            "683a9627-3bed-41df-96ac-952b08e0b9bb",
-            "a1f4a751-7590-40c6-9464-55d884c8ab89"
-        ],
-        "artwork_name": [
-            "landscape with ruins and hunting party",
-            "the governors of the guild of st luke, haarlem",
-            "portrait of a man seated at a table in his study",
-            "children's games (detail)",
-            "the triumph of death",
-            "self-portrait",
-            "orchard in blossom",
-            "orchard in blossom",
-            "exterior view",
-            "old woman saying grace",
-            "annunciation (recto)",
-            "banquet still-life with a mouse (detail)",
-            "landscape with a cottage",
-            "frozen river at sunset",
-            "peasant family in a cottage interior (detail)",
-            "driving the cattle to pasture in the morning",
-            "the risen christ appearing to mary magdalen (detail)",
-            "the archangel leaving the family of tobias",
-            "river landscape with a ferry",
-            "luna"
+        "artist_row": {
+            "jan asselyn": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/a\/asselyn\/landsca1.jpg"
+                ],
+                "creation_year": [
+                    1645.0
+                ],
+                "dominant_color": [
+                    [
+                        103,
+                        86,
+                        63
+                    ]
+                ]
+            },
+            "jan de bray": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/bray\/jan\/governor.jpg",
+                    "http:\/\/www.wga.hu\/art\/b\/bray\/jan\/port_man.jpg"
+                ],
+                "creation_year": [
+                    1675.0,
+                    1675.0
+                ],
+                "dominant_color": [
+                    [
+                        8,
+                        8,
+                        10
+                    ],
+                    [
+                        96,
+                        59,
+                        24
+                    ]
+                ]
+            },
+            "pieter the elder bruegel": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/bruegel\/pieter_e\/02\/12games.jpg",
+                    "http:\/\/www.wga.hu\/art\/b\/bruegel\/pieter_e\/05\/01death.jpg"
+                ],
+                "creation_year": [
+                    1559.0,
+                    1562.0
+                ],
+                "dominant_color": [
+                    [
+                        90,
+                        49,
+                        30
+                    ],
+                    [
+                        59,
+                        37,
+                        26
+                    ]
+                ]
+            },
+            "carel fabritius": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/f\/fabritiu\/carel\/self_pz.jpg"
+                ],
+                "creation_year": [
+                    1625.0
+                ],
+                "dominant_color": [
+                    [
+                        25,
+                        23,
+                        21
+                    ]
+                ]
+            },
+            "vincent van gogh": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/g\/gogh_van\/07\/orchar04.jpg",
+                    "http:\/\/www.wga.hu\/art\/g\/gogh_van\/07\/orchar08.jpg"
+                ],
+                "creation_year": [
+                    1888.0,
+                    1888.0
+                ],
+                "dominant_color": [
+                    [
+                        68,
+                        86,
+                        55
+                    ],
+                    [
+                        83,
+                        93,
+                        65
+                    ]
+                ]
+            },
+            "abraham van der hart": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/h\/hart\/barnaart.jpg"
+                ],
+                "creation_year": [
+                    1803.0
+                ],
+                "dominant_color": [
+                    [
+                        120,
+                        116,
+                        106
+                    ]
+                ]
+            },
+            "nicolaes maes": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/maes\/old_pray.jpg"
+                ],
+                "creation_year": [
+                    1656.0
+                ],
+                "dominant_color": [
+                    [
+                        77,
+                        50,
+                        32
+                    ]
+                ]
+            },
+            "francesco mancini": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/mander\/karel1\/z_annun1.jpg"
+                ],
+                "creation_year": [
+                    1575.0
+                ],
+                "dominant_color": [
+                    [
+                        69,
+                        56,
+                        34
+                    ]
+                ]
+            },
+            "abraham van beyeren": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/b\/beyeren\/stilmoux.jpg"
+                ],
+                "creation_year": [
+                    1667.0
+                ],
+                "dominant_color": [
+                    [
+                        15,
+                        11,
+                        15
+                    ]
+                ]
+            },
+            "pieter de molyn": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/m\/molyn\/landcott.jpg"
+                ],
+                "creation_year": [
+                    1629.0
+                ],
+                "dominant_color": [
+                    [
+                        150,
+                        146,
+                        144
+                    ]
+                ]
+            },
+            "aert van der neer": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/n\/neer\/aert\/frozen.jpg"
+                ],
+                "creation_year": [
+                    1660.0
+                ],
+                "dominant_color": [
+                    [
+                        196,
+                        195,
+                        175
+                    ]
+                ]
+            },
+            "adriaen jansz. van ostade": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/o\/ostade\/adriaen\/1\/p_cottax.jpg"
+                ],
+                "creation_year": [
+                    1661.0
+                ],
+                "dominant_color": [
+                    [
+                        38,
+                        19,
+                        21
+                    ]
+                ]
+            },
+            "paulus potter": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/p\/potter\/paulus\/cattlepa.jpg"
+                ],
+                "creation_year": [
+                    1647.0
+                ],
+                "dominant_color": [
+                    [
+                        27,
+                        17,
+                        18
+                    ]
+                ]
+            },
+            "rembrandt harmenszoon van rijn": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/r\/rembrand\/11biblic\/18newtes.jpg",
+                    "http:\/\/www.wga.hu\/art\/r\/rembrand\/15oldtes\/12oldtes.jpg"
+                ],
+                "creation_year": [
+                    1638.0,
+                    1637.0
+                ],
+                "dominant_color": [
+                    [
+                        109,
+                        114,
+                        104
+                    ],
+                    [
+                        6,
+                        7,
+                        7
+                    ]
+                ]
+            },
+            "cornelis symonsz. van der schalcke": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/schalck\/riverlan.jpg"
+                ],
+                "creation_year": [
+                    1649.0
+                ],
+                "dominant_color": [
+                    [
+                        47,
+                        27,
+                        12
+                    ]
+                ]
+            },
+            "johann gregor van der schardt": {
+                "image_url": [
+                    "http:\/\/www.wga.hu\/art\/s\/schardt\/luna.jpg"
+                ],
+                "creation_year": [
+                    1570.0
+                ],
+                "dominant_color": [
+                    [
+                        220,
+                        213,
+                        206
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1645.0,
+            1675.0,
+            1675.0,
+            1559.0,
+            1562.0,
+            1625.0,
+            1888.0,
+            1888.0,
+            1803.0,
+            1656.0,
+            1575.0,
+            1667.0,
+            1629.0,
+            1660.0,
+            1661.0,
+            1647.0,
+            1638.0,
+            1637.0,
+            1649.0,
+            1570.0
         ],
         "artist_full_name": [
             "jan asselyn",
@@ -1745,487 +1452,73 @@
             "cornelis symonsz. van der schalcke",
             "johann gregor van der schardt"
         ],
-        "artist_first_name": [
-            "jan",
-            "jan de",
-            "jan de",
-            "pieter the elder",
-            "pieter the elder",
-            "carel",
-            "vincent van",
-            "vincent van",
-            "abraham van der",
-            "nicolaes",
-            "francesco",
-            "abraham van",
-            "pieter de",
-            "aert van der",
-            "adriaen jansz. van",
-            "paulus",
-            "rembrandt harmenszoon van",
-            "rembrandt harmenszoon van",
-            "cornelis symonsz. van der",
-            "johann gregor van der"
-        ],
-        "artist_last_name": [
-            "asselyn",
-            "bray",
-            "bray",
-            "bruegel",
-            "bruegel",
-            "fabritius",
-            "gogh",
-            "gogh",
-            "hart",
-            "maes",
-            "mancini",
-            "beyeren",
-            "molyn",
-            "neer",
-            "ostade",
-            "potter",
-            "rijn",
-            "rijn",
-            "schalcke",
-            "schardt"
-        ],
-        "creation_year": [
-            1645.0,
-            1675.0,
-            1675.0,
-            1559.0,
-            1562.0,
-            1625.0,
-            1888.0,
-            1888.0,
-            1803.0,
-            1656.0,
-            1575.0,
-            1667.0,
-            1629.0,
-            1660.0,
-            1661.0,
-            1647.0,
-            1638.0,
-            1637.0,
-            1649.0,
-            1570.0
-        ],
-        "century": [
-            17.0,
-            17.0,
-            17.0,
-            16.0,
-            16.0,
-            17.0,
-            19.0,
-            19.0,
-            19.0,
-            17.0,
-            16.0,
-            17.0,
-            17.0,
-            17.0,
-            17.0,
-            17.0,
-            17.0,
-            17.0,
-            17.0,
-            16.0
-        ],
-        "source_url": [
-            "https:\/\/www.wga.hu\/html\/a\/asselyn\/landsca1.html",
-            "https:\/\/www.wga.hu\/html\/b\/bray\/jan\/governor.html",
-            "https:\/\/www.wga.hu\/html\/b\/bray\/jan\/port_man.html",
-            "https:\/\/www.wga.hu\/html\/b\/bruegel\/pieter_e\/02\/12games.html",
-            "https:\/\/www.wga.hu\/html\/b\/bruegel\/pieter_e\/05\/01death.html",
-            "https:\/\/www.wga.hu\/html\/f\/fabritiu\/carel\/self_pz.html",
-            "https:\/\/www.wga.hu\/html\/g\/gogh_van\/07\/orchar04.html",
-            "https:\/\/www.wga.hu\/html\/g\/gogh_van\/07\/orchar08.html",
-            "https:\/\/www.wga.hu\/html\/h\/hart\/barnaart.html",
-            "https:\/\/www.wga.hu\/html\/m\/maes\/old_pray.html",
-            "https:\/\/www.wga.hu\/html\/m\/mander\/karel1\/z_annun1.html",
-            "https:\/\/www.wga.hu\/html\/b\/beyeren\/stilmoux.html",
-            "https:\/\/www.wga.hu\/html\/m\/molyn\/landcott.html",
-            "https:\/\/www.wga.hu\/html\/n\/neer\/aert\/frozen.html",
-            "https:\/\/www.wga.hu\/html\/o\/ostade\/adriaen\/1\/p_cottax.html",
-            "https:\/\/www.wga.hu\/html\/p\/potter\/paulus\/cattlepa.html",
-            "https:\/\/www.wga.hu\/html\/r\/rembrand\/11biblic\/18newtes.html",
-            "https:\/\/www.wga.hu\/html\/r\/rembrand\/15oldtes\/12oldtes.html",
-            "https:\/\/www.wga.hu\/html\/s\/schalck\/riverlan.html",
-            "https:\/\/www.wga.hu\/html\/s\/schardt\/luna.html"
-        ],
-        "image_url": [
-            "http:\/\/www.wga.hu\/art\/a\/asselyn\/landsca1.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bray\/jan\/governor.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bray\/jan\/port_man.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bruegel\/pieter_e\/02\/12games.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/bruegel\/pieter_e\/05\/01death.jpg",
-            "http:\/\/www.wga.hu\/art\/f\/fabritiu\/carel\/self_pz.jpg",
-            "http:\/\/www.wga.hu\/art\/g\/gogh_van\/07\/orchar04.jpg",
-            "http:\/\/www.wga.hu\/art\/g\/gogh_van\/07\/orchar08.jpg",
-            "http:\/\/www.wga.hu\/art\/h\/hart\/barnaart.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/maes\/old_pray.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/mander\/karel1\/z_annun1.jpg",
-            "http:\/\/www.wga.hu\/art\/b\/beyeren\/stilmoux.jpg",
-            "http:\/\/www.wga.hu\/art\/m\/molyn\/landcott.jpg",
-            "http:\/\/www.wga.hu\/art\/n\/neer\/aert\/frozen.jpg",
-            "http:\/\/www.wga.hu\/art\/o\/ostade\/adriaen\/1\/p_cottax.jpg",
-            "http:\/\/www.wga.hu\/art\/p\/potter\/paulus\/cattlepa.jpg",
-            "http:\/\/www.wga.hu\/art\/r\/rembrand\/11biblic\/18newtes.jpg",
-            "http:\/\/www.wga.hu\/art\/r\/rembrand\/15oldtes\/12oldtes.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/schalck\/riverlan.jpg",
-            "http:\/\/www.wga.hu\/art\/s\/schardt\/luna.jpg"
-        ],
-        "collection_origins": [
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17",
-            "Web Gallery of Art '17"
-        ],
-        "artwork_type": [
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "architecture",
-            "painting",
-            "graphics",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "sculpture"
-        ],
-        "original_id_in_collection": [
-            "2569",
-            "5746",
-            "5758",
-            "6094",
-            "6129",
-            "13160",
-            "16741",
-            "16745",
-            "18968",
-            "23197",
-            "23407",
-            "4273",
-            "28050",
-            "29066",
-            "29514",
-            "31712",
-            "32975",
-            "33025",
-            "36062",
-            "36083"
-        ],
-        "created_at": [
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15",
-            "2017-11-15"
-        ],
-        "last_modified": [
-            "2018-06-19",
-            "2018-06-19",
-            "2018-06-19",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            2569,
-            5745,
-            5757,
-            6093,
-            6128,
-            13156,
-            16737,
-            16741,
-            18964,
-            23191,
-            23401,
-            4272,
-            28044,
-            29059,
-            29507,
-            31705,
-            32968,
-            33018,
-            36055,
-            36076
-        ],
-        "created_by_id": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "general_type": [
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "photograph",
-            "painting",
-            "drawing",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "painting",
-            "sculpture"
-        ],
-        "geocoded": [
-            "t",
-            "t",
-            "t",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#d9d1b1', u'#c1bfb0', u'#a5adb8', u'#96876f', u'#583b23', u'#473321', u'#281d15', u'#bab093', u'#67563f', u'#372619', u'#211610', u'#140c0a']",
-            "[u'#44392d', u'#211d1a', u'#1b1311', u'#121111', u'#0d0d0e', u'#030304', u'#c4a684', u'#815c43', u'#61402d', u'#452a1e', u'#31261e', u'#08080a']",
-            "[u'#603b18', u'#2f2311', u'#261d0f', u'#242114', u'#201b10', u'#9b6c41', u'#4c2c11', u'#3a240f', u'#1c1a13', u'#191a14', u'#171812', u'#151410']",
-            "[u'#dfb573', u'#b97b3b', u'#9a3526', u'#8f6130', u'#5a311e', u'#352114', u'#160d08', u'#ca984c', u'#c08841', u'#b16e36', u'#9a442a', u'#27160e']",
-            "[u'#a7693c', u'#a6835b', u'#924f2b', u'#7e6547', u'#592d1c', u'#3b251a', u'#2a1f19', u'#231511', u'#150908', u'#c9b28e', u'#774a2d', u'#5b442f']",
-            "[u'#7f493b', u'#664539', u'#382925', u'#282320', u'#191715', u'#110f0d', u'#d29271', u'#ab6c54', u'#8f5a48', u'#543c34', u'#4c2e26', u'#231a18']",
-            "[u'#93774a', u'#7e5b39', u'#647550', u'#635736', u'#534128', u'#363f27', u'#262317', u'#dddcc3', u'#cbc8aa', u'#b6ac7c', u'#9e9060', u'#445637']",
-            "[u'#f6f5da', u'#b1c5b7', u'#b0b184', u'#a59f74', u'#88997a', u'#857f5e', u'#535d41', u'#353328', u'#d8e4d1', u'#cdcc9e', u'#707856', u'#587248']",
-            "[u'#e6e9eb', u'#dae1e4', u'#d4d9d9', u'#625d51', u'#41433a', u'#3a352b', u'#2c332e', u'#2a2b24', u'#1f211c', u'#a6a296', u'#78746a', u'#544c41']",
-            "[u'#cfbd9b', u'#725d45', u'#361d15', u'#150f14', u'#070105', u'#4d3220', u'#201414', u'#130a10', u'#0f080f', u'#0d060d', u'#0a040a', u'#080207']",
-            "[u'#dec59b', u'#d1b388', u'#c9af89', u'#c3a57d', u'#ba9b73', u'#a08562', u'#e6cea4', u'#dabe92', u'#d3bc96', u'#b0946f', u'#7c6649', u'#453822']",
-            "[u'#946746', u'#743b2a', u'#56211b', u'#0f0b0f', u'#0b090d', u'#08070b', u'#030105', u'#d0b28c', u'#2f1a18', u'#1a0a0d', u'#181215', u'#060408']",
-            "[u'#d7d1cb', u'#aaa5a3', u'#463b25', u'#bfb8b3', u'#b4aca7', u'#a49e9b', u'#a2988d', u'#969290', u'#837660', u'#2b2015', u'#231610', u'#120c0a']",
-            "[u'#ccaf8e', u'#c7c7b0', u'#c4c3af', u'#c2bfaa', u'#b6b7a7', u'#ab876a', u'#6e5734', u'#cccab3', u'#b3987b', u'#8c785a', u'#56482e', u'#352612']",
-            "[u'#b09174', u'#633f2f', u'#4a271f', u'#39211d', u'#341716', u'#280d0f', u'#261315', u'#220b0e', u'#1c090c', u'#16070a', u'#140307', u'#100104']",
-            "[u'#eee1d5', u'#ede5ea', u'#dbbd99', u'#9f7351', u'#371f1b', u'#1b1112', u'#fdf4d5', u'#faf0d6', u'#f7ecdc', u'#e3deea', u'#744834', u'#52362a']",
-            "[u'#9a9b8c', u'#43433b', u'#2d231e', u'#1c1715', u'#180f11', u'#090309', u'#d0ceb9', u'#b4b4a3', u'#6d7268', u'#221c19', u'#110c0f', u'#0d080d']",
-            "[u'#a68148', u'#030505', u'#432919', u'#24150e', u'#0f0d0c', u'#0d0908', u'#060707', u'#030707', u'#714a27', u'#18100d', u'#080808', u'#030405']",
-            "[u'#dacbb2', u'#c6ab8a', u'#453320', u'#2f1b0c', u'#e3d6be', u'#d0c0a8', u'#c8b69b', u'#bcaa8f', u'#b39876', u'#a38869', u'#846c52', u'#624427']",
-            "[u'#eae5e0', u'#e7ddd7', u'#dcd5ce', u'#72614f', u'#f2eeeb', u'#efeae7', u'#ede8e4', u'#e8e2dc', u'#e2dcd6', u'#e1d8d3', u'#c9bcb2', u'#302e28']"
-        ],
-        "dominant_color": [
-            "#67563f",
-            "#08080a",
-            "#603b18",
-            "#5a311e",
-            "#3b251a",
-            "#191715",
-            "#445637",
-            "#535d41",
-            "#78746a",
-            "#4d3220",
-            "#453822",
-            "#0f0b0f",
-            "#969290",
-            "#c4c3af",
-            "#261315",
-            "#1b1112",
-            "#6d7268",
-            "#060707",
-            "#2f1b0c",
-            "#dcd5ce"
-        ],
-        "palette_count": [
-            "[3920, 3630, 4544, 6077, 5477, 5283, 5684, 5987, 7056, 5868, 5732, 6278]",
-            "[4434, 5772, 5368, 5941, 6683, 7512, 3490, 4223, 4718, 3324, 5819, 8252]",
-            "[6807, 6400, 4680, 6013, 6773, 3466, 3925, 6016, 4556, 6218, 5009, 5673]",
-            "[3181, 5334, 3466, 7263, 8076, 5491, 7198, 5999, 6165, 5297, 3359, 4707]",
-            "[4422, 4546, 4055, 4430, 6632, 8699, 4417, 6201, 6327, 3452, 5837, 6518]",
-            "[4076, 7009, 4569, 4100, 8374, 7175, 3230, 6365, 5473, 6353, 4344, 4468]",
-            "[4614, 4763, 4812, 5501, 4827, 5673, 6269, 4147, 5534, 5737, 6013, 7646]",
-            "[4246, 4822, 4651, 5001, 4547, 5507, 9942, 6147, 4231, 3835, 6449, 6158]",
-            "[3104, 6595, 7746, 5326, 4121, 5263, 2625, 6776, 5702, 6840, 7808, 3630]",
-            "[3802, 4289, 4577, 7308, 3469, 8391, 4795, 6436, 6198, 5011, 6767, 4493]",
-            "[5327, 3951, 4128, 7365, 4923, 7265, 3929, 3659, 4300, 5128, 7773, 7788]",
-            "[5498, 6101, 4367, 7833, 5470, 5422, 5670, 3564, 6470, 3066, 6285, 5790]",
-            "[3673, 4204, 6979, 4621, 4259, 7165, 1966, 9681, 5097, 5712, 5491, 6688]",
-            "[4226, 4907, 7461, 5372, 5160, 4881, 4918, 4779, 5792, 5887, 5584, 6569]",
-            "[3118, 4788, 4981, 5060, 6524, 4109, 8047, 6172, 7337, 4487, 5427, 5486]",
-            "[3817, 8312, 3174, 3853, 6869, 8659, 4775, 3862, 6426, 6528, 4431, 4830]",
-            "[7121, 6177, 6060, 4104, 4202, 5360, 3729, 5844, 8301, 4515, 4494, 5629]",
-            "[3382, 4058, 6122, 5689, 5638, 4977, 8836, 3127, 6209, 5856, 6713, 4929]",
-            "[5687, 5201, 5070, 7307, 4091, 5947, 6726, 4500, 4840, 5629, 6180, 4358]",
-            "[3740, 3744, 10691, 8955, 3620, 6018, 4160, 4310, 3756, 6248, 2863, 7431]"
+        "artwork_name": [
+            "landscape with ruins and hunting party",
+            "the governors of the guild of st luke, haarlem",
+            "portrait of a man seated at a table in his study",
+            "children's games (detail)",
+            "the triumph of death",
+            "self-portrait",
+            "orchard in blossom",
+            "orchard in blossom",
+            "exterior view",
+            "old woman saying grace",
+            "annunciation (recto)",
+            "banquet still-life with a mouse (detail)",
+            "landscape with a cottage",
+            "frozen river at sunset",
+            "peasant family in a cottage interior (detail)",
+            "driving the cattle to pasture in the morning",
+            "the risen christ appearing to mary magdalen (detail)",
+            "the archangel leaving the family of tobias",
+            "river landscape with a ferry",
+            "luna"
         ]
     },
     "USA": {
-        "id": [
-            "aa66a78a-b734-4890-bcc2-dca441c2de63",
-            "e0f666e0-75b9-4933-b0e0-dac0b398adec"
-        ],
-        "artwork_name": [
-            "syrup jug",
-            "vase"
+        "artist_row": {
+            "united states pottery company": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/ad\/original\/DP265353.jpg"
+                ],
+                "creation_year": [
+                    1852.0
+                ],
+                "dominant_color": [
+                    [
+                        166,
+                        159,
+                        155
+                    ]
+                ]
+            },
+            "george duncan and sons": {
+                "image_url": [
+                    "https:\/\/images.metmuseum.org\/CRDImages\/ad\/original\/254643.jpg"
+                ],
+                "creation_year": [
+                    1878.0
+                ],
+                "dominant_color": [
+                    [
+                        208,
+                        208,
+                        208
+                    ]
+                ]
+            }
+        },
+        "creation_year": [
+            1852.0,
+            1878.0
         ],
         "artist_full_name": [
             "united states pottery company",
             "george duncan and sons"
         ],
-        "artist_first_name": [
-            "United",
-            "George"
-        ],
-        "artist_last_name": [
-            "States",
-            "Duncan"
-        ],
-        "creation_year": [
-            1852.0,
-            1878.0
-        ],
-        "century": [
-            19.0,
-            19.0
-        ],
-        "source_url": [
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/8048",
-            "http:\/\/www.metmuseum.org\/art\/collection\/search\/14273"
-        ],
-        "image_url": [
-            "https:\/\/images.metmuseum.org\/CRDImages\/ad\/original\/DP265353.jpg",
-            "https:\/\/images.metmuseum.org\/CRDImages\/ad\/original\/254643.jpg"
-        ],
-        "collection_origins": [
-            "The Met 17",
-            "The Met 17"
-        ],
-        "artwork_type": [
-            "ceramics",
-            "glass"
-        ],
-        "original_id_in_collection": [
-            "8048",
-            "14273"
-        ],
-        "created_at": [
-            "2017-12-02",
-            "2017-12-04"
-        ],
-        "last_modified": [
-            "2017-12-21",
-            "2017-12-21"
-        ],
-        "omni_id": [
-            5005293,
-            5009839
-        ],
-        "created_by_id": [
-            1,
-            1
-        ],
-        "general_type": [
-            "unknown",
-            "craft"
-        ],
-        "geocoded": [
-            "f",
-            "f"
-        ],
-        "color_pallete": [
-            "[u'#a69f9b', u'#626161', u'#565352', u'#cebeb3', u'#b1a8a1', u'#9f9288', u'#8b8886', u'#797471', u'#6e6864', u'#484646', u'#404040', u'#363636']",
-            "[u'#f7f7f7', u'#f5f5f5', u'#f3f3f3', u'#ededed', u'#fafafa', u'#f8f8f8', u'#f4f4f4', u'#f2f2f2', u'#f0f0f0', u'#e6e6e6', u'#d0d0d0', u'#949494']"
-        ],
-        "dominant_color": [
-            "#a69f9b",
-            "#d0d0d0"
-        ],
-        "palette_count": [
-            "[7846, 4846, 5961, 3821, 5524, 3665, 4138, 7598, 4863, 5133, 5005, 7136]",
-            "[5669, 3045, 4980, 4881, 6919, 3469, 6180, 3779, 5365, 6479, 9186, 5584]"
+        "artwork_name": [
+            "syrup jug",
+            "vase"
         ]
     }
 }

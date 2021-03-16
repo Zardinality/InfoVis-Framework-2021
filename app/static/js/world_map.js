@@ -1,5 +1,6 @@
-
 function update_map(datasetData){
+    // import {legend} from "@d3/color-legend"
+
     // Load datasets
     Promise.all([
         // Load world map
@@ -23,6 +24,9 @@ function update_map(datasetData){
             .enter().append('path')
             .attr('class', 'country')
             .attr('d', pathGenerator)
+            .attr('id', function(d){
+                return countryCode[d.id];
+            })
             .style("fill", function (d) {
                 if (!datasetData[countryCode[d.id]]) {
                     return colorScale(0)
@@ -38,7 +42,19 @@ function update_map(datasetData){
                 //d3.select(this).attr("fill", "DarkOrange");
             }).on("mouseout", function (d, i) {
                 hideTooltip()
-            });
+            }).on("click", function(d){
+                if(country_id)
+                    d3.select("#"+country_id).style("fill", prev_country_color);
+                prev_country_color = d3.select(this).style("fill");
+                d3.select(this).style("fill", "green");
+                country_id = countryCode[d.id];
+                country_name = countryName[d.id];
+                // TODO: update artist selection
+                update_artist_picker(datasetData);
+                // TODO: update gallery
+                update_gallery(datasetData);
+            })
+            ;
             // .append('title')
             // .text(d => countryName[d.id])
     });

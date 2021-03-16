@@ -8,7 +8,12 @@
 <link href="../static/css/tooltip.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="../static/js/tooltip.js"></script>
 <script type="text/javascript" src="../static/js/slider.js"></script>
+<script type="text/javascript" src="../static/js/palette.js"></script>
 <script type="text/javascript" src="../static/js/world_map.js"></script>
+<script type="text/javascript" src="../static/js/gallery.js"></script>
+<script type="text/javascript" src="../static/js/artist_picker.js"></script>
+<script type="text/javascript" src="../static/js/legend.js"></script>
+<script type="text/javascript" src="../static/js/iro.js"></script>
 
 <html>
 
@@ -17,12 +22,16 @@
 </head>
 
 <!-- Add two sliders -->
-<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="1500">
-<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="1700">
 
 <body>
 	<h1>Colours of the World</h1>
-	<svg width="1000" height="1000"></svg>
+	<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="1500">
+	<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="1700">
+	<svg width="1000" height="700"></svg>
+	<svg width="300" height="50" id=legend></svg>
+	<div id="picker"></div>
+	<div id="artist_picker"></div>
+	<div id="gallery"></div>
 </body>
 
 </html>
@@ -37,21 +46,34 @@
 	var colorScale = d3.scaleThreshold()
 		.domain([1, 5, 10])
 		.range(d3.schemeBlues[4]);
+	var legend_ele = legend({
+		color: colorScale,
+		title: "number of artworks"
+	});
 	var world_map = svg.append("g")
-	.attr("id", "world_map");
+		.attr("id", "world_map");
 	// var slider = svg.append("g")
 	// .attr("id", "slider");
 	var palette = svg.append("g")
-	.attr("id", "palette");
-	
-
+		.attr("id", "palette");
+	var colorPicker = new iro.ColorPicker('#picker',
+		{ color: "#f00" }
+	);
 	var lower_year = d3.select("#lower_bound").attr("value")
 	var upper_year = d3.select("#upper_bound").attr("value")
 
-	d3.json("../static/omniart_v3_1k_res.json").then(datasetData=>{
+	var country_id = "";
+	var country_name = "";
+	var prev_country_color = "";
+	var artist_name = "";
+	var selected_color = { r: 255, g: 0, b: 0 };
+	d3.json("../static/omniart_v3_1k_res.json").then(datasetData => {
+		colorPicker.on('color:change', color => update_palette(color, datasetData));
+		update_artist_picker(datasetData);
 		create_slider(datasetData);
 		update_map(datasetData);
-	})
+		update_gallery(datasetData);
+	});
 </script>
 
 {% endblock %}

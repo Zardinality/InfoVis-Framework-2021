@@ -1,0 +1,861 @@
+{
+    "AUT": {
+        "master of heiligenkreuz": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/master\/heiligen\/heilige1.jpg"
+            ],
+            "creation_year": [
+                1410.0
+            ],
+            "dominant_color": [
+                "#c08a5f"
+            ]
+        },
+        "johann michael rottmayr": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/r\/rottmayr\/rossau2.jpg"
+            ],
+            "creation_year": [
+                1705.0
+            ],
+            "dominant_color": [
+                "#a29a94"
+            ]
+        }
+    },
+    "BEL": {
+        "balthasar beschey": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/beschey\/assumpti.jpg"
+            ],
+            "creation_year": [
+                1725.0
+            ],
+            "dominant_color": [
+                "#220d0b"
+            ]
+        },
+        "herri met de bles": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/bles\/paradise.jpg"
+            ],
+            "creation_year": [
+                1540.0
+            ],
+            "dominant_color": [
+                "#000000"
+            ]
+        },
+        "pieter van bloemen": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/bloemen\/pieter\/drovers.jpg"
+            ],
+            "creation_year": [
+                1675.0
+            ],
+            "dominant_color": [
+                "#141520"
+            ]
+        },
+        "jan the elder brueghel": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/bruegel\/jan_e\/1\/coastal.jpg"
+            ],
+            "creation_year": [
+                1610.0
+            ],
+            "dominant_color": [
+                "#acb3a7"
+            ]
+        },
+        "pieter casteels": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/c\/casteels\/chickens.jpg"
+            ],
+            "creation_year": [
+                1728.0
+            ],
+            "dominant_color": [
+                "#363620"
+            ]
+        },
+        "petrus christus": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/c\/christus\/1\/annuncia.jpg"
+            ],
+            "creation_year": [
+                1452.0
+            ],
+            "dominant_color": [
+                "#9f5d43"
+            ]
+        },
+        "hugo van der goes": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/g\/goes\/deathvir\/death_v6.jpg"
+            ],
+            "creation_year": [
+                1480.0
+            ],
+            "dominant_color": [
+                "#6275ac"
+            ]
+        },
+        "jan gossart": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/g\/gossart\/08drawin\/48drawin.jpg"
+            ],
+            "creation_year": [
+                1509.0
+            ],
+            "dominant_color": [
+                "#e4d4b9"
+            ]
+        },
+        "master of female half-lengths": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/master\/female\/catherin.jpg"
+            ],
+            "creation_year": [
+                1530.0
+            ],
+            "dominant_color": [
+                "#291510"
+            ]
+        },
+        "master of flmalle": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/master\/flemalle\/nativity\/nativi_1.jpg",
+                "http:\/\/www.wga.hu\/art\/m\/master\/flemalle\/nativity\/nativi_2.jpg"
+            ],
+            "creation_year": [
+                1425.0,
+                1425.0
+            ],
+            "dominant_color": [
+                "#785547",
+                "#5b3d3a"
+            ]
+        },
+        "anthonis mor van dashorst": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/mor\/7goltziu.jpg"
+            ],
+            "creation_year": [
+                1574.0
+            ],
+            "dominant_color": [
+                "#45392f"
+            ]
+        },
+        "peter paul rubens": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/r\/rubens\/61other\/051susan.jpg"
+            ],
+            "creation_year": [
+                1611.0
+            ],
+            "dominant_color": [
+                "#42230e"
+            ]
+        },
+        "joris van son": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/son\/pronk.jpg"
+            ],
+            "creation_year": [
+                1675.0
+            ],
+            "dominant_color": [
+                "#22221e"
+            ]
+        },
+        "johannes stradanus": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/stradanu\/alchemix.jpg"
+            ],
+            "creation_year": [
+                1570.0
+            ],
+            "dominant_color": [
+                "#161b16"
+            ]
+        },
+        "lucas van uden": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/u\/uden\/landcart.jpg"
+            ],
+            "creation_year": [
+                1625.0
+            ],
+            "dominant_color": [
+                "#1d190a"
+            ]
+        },
+        "flemish unknown master": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/master\/zunk_fl\/16_paint\/1\/13tripty.jpg"
+            ],
+            "creation_year": [
+                1516.0
+            ],
+            "dominant_color": [
+                "#a66d3c"
+            ]
+        }
+    },
+    "CHN": {
+        "wen zhengming": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP153576.jpg"
+            ],
+            "creation_year": [
+                1644.0
+            ],
+            "dominant_color": [
+                "#f0e3d2"
+            ]
+        }
+    },
+    "DEU": {
+        "albrecht drer": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/d\/durer\/2\/12\/7smallp\/3\/27_small.jpg"
+            ],
+            "creation_year": [
+                1511.0
+            ],
+            "dominant_color": [
+                "#3b3b3b"
+            ]
+        },
+        "jacob philipp hackert": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/h\/hackert\/philipp\/w_anitre.jpg"
+            ],
+            "creation_year": [
+                1793.0
+            ],
+            "dominant_color": [
+                "#7c6a44"
+            ]
+        },
+        "ferdinand theodor hildebrandt": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/h\/hildebr\/christma.jpg"
+            ],
+            "creation_year": [
+                1840.0
+            ],
+            "dominant_color": [
+                "#1f131a"
+            ]
+        },
+        "hans the younger holbein": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/h\/holbein\/hans_y\/2drawing\/woodcuts\/2titlepb.jpg"
+            ],
+            "creation_year": [
+                1535.0
+            ],
+            "dominant_color": [
+                "#121117"
+            ]
+        },
+        "max liebermann": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/l\/lieberma\/03flaxba.jpg"
+            ],
+            "creation_year": [
+                1887.0
+            ],
+            "dominant_color": [
+                "#0b0c10"
+            ]
+        },
+        "stefan lochner": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/l\/lochner\/madonna.jpg"
+            ],
+            "creation_year": [
+                1440.0
+            ],
+            "dominant_color": [
+                "#0f0c0c"
+            ]
+        },
+        "german miniaturist": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/0751-800\/2german\/4vienna1.jpg"
+            ],
+            "creation_year": [
+                775.0
+            ],
+            "dominant_color": [
+                "#512e1d"
+            ]
+        },
+        "german romanesque painter": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/zgothic\/mural\/12c2\/09german.jpg"
+            ],
+            "creation_year": [
+                1180.0
+            ],
+            "dominant_color": [
+                "#3f3237"
+            ]
+        },
+        "german unknown goldsmith": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/zzdeco\/1gold\/16c\/07g_1506.jpg"
+            ],
+            "creation_year": [
+                1525.0
+            ],
+            "dominant_color": [
+                "#4e4232"
+            ]
+        }
+    },
+    "DNK": {
+        "laurits andersen ring": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/r\/ring_lau\/skylight.jpg"
+            ],
+            "creation_year": [
+                1885.0
+            ],
+            "dominant_color": [
+                "#120d0e"
+            ]
+        }
+    },
+    "ESP": {
+        "nicols francs": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/f\/frances\/s_franci.jpg"
+            ],
+            "creation_year": [
+                1440.0
+            ],
+            "dominant_color": [
+                "#5b4739"
+            ]
+        },
+        "el greco": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/g\/greco_el\/18\/1808grec.jpg"
+            ],
+            "creation_year": [
+                1610.0
+            ],
+            "dominant_color": [
+                "#342c34"
+            ]
+        },
+        "francisco hurtado izquierdo": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/h\/hurtado\/1sagrari.jpg"
+            ],
+            "creation_year": [
+                1732.0
+            ],
+            "dominant_color": [
+                "#1d190b"
+            ]
+        },
+        "bartolom esteban murillo": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/murillo\/2\/204muril.jpg"
+            ],
+            "creation_year": [
+                1660.0
+            ],
+            "dominant_color": [
+                "#352526"
+            ]
+        },
+        "unknown": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/md\/original\/sf17-190-977s1.jpg"
+            ],
+            "creation_year": [
+                1350.0
+            ],
+            "dominant_color": [
+                "#233359"
+            ]
+        }
+    },
+    "FRA": {
+        "paul czanne": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/c\/cezanne\/4\/3lands01.jpg"
+            ],
+            "creation_year": [
+                1890.0
+            ],
+            "dominant_color": [
+                "#242421"
+            ]
+        },
+        "eug?ne delacroix": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/d\/delacroi\/2\/207delac.jpg"
+            ],
+            "creation_year": [
+                1826.0
+            ],
+            "dominant_color": [
+                "#7b6e59"
+            ]
+        },
+        "joseph-hugues fabisch": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/f\/fabisch\/virgin_c.jpg"
+            ],
+            "creation_year": [
+                1863.0
+            ],
+            "dominant_color": [
+                "#4b311e"
+            ]
+        },
+        "paul gauguin": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/g\/gauguin\/01\/early09.jpg"
+            ],
+            "creation_year": [
+                1884.0
+            ],
+            "dominant_color": [
+                "#59606c"
+            ]
+        },
+        "french medieval sculptor": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/zgothic\/1romanes\/po-12c11\/31f_1101.jpg"
+            ],
+            "creation_year": [
+                1145.0
+            ],
+            "dominant_color": [
+                "#a08863"
+            ]
+        },
+        "french miniaturist": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1151-200\/3french\/23french.jpg",
+                "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1251-300\/2french\/71french.jpg"
+            ],
+            "creation_year": [
+                1190.0,
+                1285.0
+            ],
+            "dominant_color": [
+                "#261b16",
+                "#1d1018"
+            ]
+        },
+        "adolphe monticelli": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/monticel\/flowers.jpg"
+            ],
+            "creation_year": [
+                1871.0
+            ],
+            "dominant_color": [
+                "#795f1f"
+            ]
+        },
+        "pierre puget": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/p\/puget\/sculptur\/1\/08milon.jpg"
+            ],
+            "creation_year": [
+                1671.0
+            ],
+            "dominant_color": [
+                "#473b36"
+            ]
+        },
+        "mile sagot": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/sagot\/cluny1.jpg"
+            ],
+            "creation_year": [
+                1840.0
+            ],
+            "dominant_color": [
+                "#cccdce"
+            ]
+        },
+        "dominic serres": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/serres\/siege2.jpg"
+            ],
+            "creation_year": [
+                1767.0
+            ],
+            "dominant_color": [
+                "#2e2923"
+            ]
+        },
+        "georges seurat": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/seurat\/figures\/xcircus1.jpg"
+            ],
+            "creation_year": [
+                1887.0
+            ],
+            "dominant_color": [
+                "#2a2637"
+            ]
+        },
+        "jean-baptiste stouf": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/stouf\/abel1.jpg"
+            ],
+            "creation_year": [
+                1785.0
+            ],
+            "dominant_color": [
+                "#766c68"
+            ]
+        },
+        "french unknown master": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/master\/yunk_fr\/yunk_fr1a\/02apost1.jpg"
+            ],
+            "creation_year": [
+                1090.0
+            ],
+            "dominant_color": [
+                "#4d3c27"
+            ]
+        },
+        "unknown": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/md\/original\/PS3DEMO.24.jpg"
+            ],
+            "creation_year": [
+                1350.0
+            ],
+            "dominant_color": [
+                "#afa697"
+            ]
+        }
+    },
+    "GBR": {
+        "john constable": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/c\/constabl\/stonehen.jpg"
+            ],
+            "creation_year": [
+                1835.0
+            ],
+            "dominant_color": [
+                "#887369"
+            ]
+        },
+        "prince hoare": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/h\/hoare\/prince\/lyttelto.jpg"
+            ],
+            "creation_year": [
+                1784.0
+            ],
+            "dominant_color": [
+                "#1a100c"
+            ]
+        },
+        "sir joshua reynolds": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/r\/reynolds\/sunderli.jpg"
+            ],
+            "creation_year": [
+                1786.0
+            ],
+            "dominant_color": [
+                "#040103"
+            ]
+        },
+        "english unknown master": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/master\/yunk_en\/headjohn.jpg"
+            ],
+            "creation_year": [
+                1400.0
+            ],
+            "dominant_color": [
+                "#000000"
+            ]
+        }
+    },
+    "HUN": {
+        "hungarian miniaturist": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/zgothic\/miniatur\/1451-500\/4other\/10_1451.jpg"
+            ],
+            "creation_year": [
+                1476.0
+            ],
+            "dominant_color": [
+                "#fde7b5"
+            ]
+        }
+    },
+    "JPN": {
+        "utagawa hiroshige": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP123560.jpg"
+            ],
+            "creation_year": [
+                1835.0
+            ],
+            "dominant_color": [
+                "#635853"
+            ]
+        },
+        "unknown": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DT10413.jpg",
+                "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/198066.jpg"
+            ],
+            "creation_year": [
+                1750.0,
+                1450.0
+            ],
+            "dominant_color": [
+                "#1a1c21",
+                "#5c5c5c"
+            ]
+        },
+        "unidentified artist": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/as\/original\/DP234261_CRD.jpg"
+            ],
+            "creation_year": [
+                1100.0
+            ],
+            "dominant_color": [
+                "#2e2c2c"
+            ]
+        }
+    },
+    "NLD": {
+        "jan asselyn": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/a\/asselyn\/landsca1.jpg"
+            ],
+            "creation_year": [
+                1645.0
+            ],
+            "dominant_color": [
+                "#67563f"
+            ]
+        },
+        "jan de bray": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/bray\/jan\/governor.jpg",
+                "http:\/\/www.wga.hu\/art\/b\/bray\/jan\/port_man.jpg"
+            ],
+            "creation_year": [
+                1675.0,
+                1675.0
+            ],
+            "dominant_color": [
+                "#08080a",
+                "#603b18"
+            ]
+        },
+        "pieter the elder bruegel": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/bruegel\/pieter_e\/02\/12games.jpg",
+                "http:\/\/www.wga.hu\/art\/b\/bruegel\/pieter_e\/05\/01death.jpg"
+            ],
+            "creation_year": [
+                1559.0,
+                1562.0
+            ],
+            "dominant_color": [
+                "#5a311e",
+                "#3b251a"
+            ]
+        },
+        "carel fabritius": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/f\/fabritiu\/carel\/self_pz.jpg"
+            ],
+            "creation_year": [
+                1625.0
+            ],
+            "dominant_color": [
+                "#191715"
+            ]
+        },
+        "vincent van gogh": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/g\/gogh_van\/07\/orchar04.jpg",
+                "http:\/\/www.wga.hu\/art\/g\/gogh_van\/07\/orchar08.jpg"
+            ],
+            "creation_year": [
+                1888.0,
+                1888.0
+            ],
+            "dominant_color": [
+                "#445637",
+                "#535d41"
+            ]
+        },
+        "abraham van der hart": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/h\/hart\/barnaart.jpg"
+            ],
+            "creation_year": [
+                1803.0
+            ],
+            "dominant_color": [
+                "#78746a"
+            ]
+        },
+        "nicolaes maes": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/maes\/old_pray.jpg"
+            ],
+            "creation_year": [
+                1656.0
+            ],
+            "dominant_color": [
+                "#4d3220"
+            ]
+        },
+        "francesco mancini": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/mander\/karel1\/z_annun1.jpg"
+            ],
+            "creation_year": [
+                1575.0
+            ],
+            "dominant_color": [
+                "#453822"
+            ]
+        },
+        "abraham van beyeren": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/b\/beyeren\/stilmoux.jpg"
+            ],
+            "creation_year": [
+                1667.0
+            ],
+            "dominant_color": [
+                "#0f0b0f"
+            ]
+        },
+        "pieter de molyn": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/m\/molyn\/landcott.jpg"
+            ],
+            "creation_year": [
+                1629.0
+            ],
+            "dominant_color": [
+                "#969290"
+            ]
+        },
+        "aert van der neer": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/n\/neer\/aert\/frozen.jpg"
+            ],
+            "creation_year": [
+                1660.0
+            ],
+            "dominant_color": [
+                "#c4c3af"
+            ]
+        },
+        "adriaen jansz. van ostade": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/o\/ostade\/adriaen\/1\/p_cottax.jpg"
+            ],
+            "creation_year": [
+                1661.0
+            ],
+            "dominant_color": [
+                "#261315"
+            ]
+        },
+        "paulus potter": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/p\/potter\/paulus\/cattlepa.jpg"
+            ],
+            "creation_year": [
+                1647.0
+            ],
+            "dominant_color": [
+                "#1b1112"
+            ]
+        },
+        "rembrandt harmenszoon van rijn": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/r\/rembrand\/11biblic\/18newtes.jpg",
+                "http:\/\/www.wga.hu\/art\/r\/rembrand\/15oldtes\/12oldtes.jpg"
+            ],
+            "creation_year": [
+                1638.0,
+                1637.0
+            ],
+            "dominant_color": [
+                "#6d7268",
+                "#060707"
+            ]
+        },
+        "cornelis symonsz. van der schalcke": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/schalck\/riverlan.jpg"
+            ],
+            "creation_year": [
+                1649.0
+            ],
+            "dominant_color": [
+                "#2f1b0c"
+            ]
+        },
+        "johann gregor van der schardt": {
+            "image_url": [
+                "http:\/\/www.wga.hu\/art\/s\/schardt\/luna.jpg"
+            ],
+            "creation_year": [
+                1570.0
+            ],
+            "dominant_color": [
+                "#dcd5ce"
+            ]
+        }
+    },
+    "USA": {
+        "united states pottery company": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/ad\/original\/DP265353.jpg"
+            ],
+            "creation_year": [
+                1852.0
+            ],
+            "dominant_color": [
+                "#a69f9b"
+            ]
+        },
+        "george duncan and sons": {
+            "image_url": [
+                "https:\/\/images.metmuseum.org\/CRDImages\/ad\/original\/254643.jpg"
+            ],
+            "creation_year": [
+                1878.0
+            ],
+            "dominant_color": [
+                "#d0d0d0"
+            ]
+        }
+    }
+}
