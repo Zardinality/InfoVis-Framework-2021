@@ -14,29 +14,61 @@
 <script type="text/javascript" src="../static/js/artist_picker.js"></script>
 <script type="text/javascript" src="../static/js/legend.js"></script>
 <script type="text/javascript" src="../static/js/iro.js"></script>
-
 <html>
 
 <head>
 	<title>Colours of the World</title>
 </head>
 
-<!-- Add two sliders -->
-
 <body>
-	<h1>Colours of the World</h1>
-	<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="1500">
-	<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="1700">
-	<svg width="1000" height="700"></svg>
-	<svg width="300" height="50" id=legend></svg>
-	<div id="picker"></div>
-	<div id="artist_picker"></div>
-	<div id="gallery"></div>
+	<div class="container-fluid">
+		<h2>Select a country</h2>
+		<hr>
+		<div>
+			<output>0</output>
+			<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="0" oninput="this.previousElementSibling.value = this.value">
+			<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="2020" oninput="this.nextElementSibling.value = this.value">
+			<output>2020</output>
+
+		</div>
+		<div>
+			<svg width="1000" height="700"></svg>
+		</div>
+		<div>
+			<svg width="300" height="50" id=legend></svg>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="container">
+				<h3>Pick a color</h3>
+				<hr>
+				<div id="picker"></div>
+			</div>
+		</div>
+		<div class="col-sm-8">
+			<div class="container">
+				<h3>Pick an artist</h3>
+				<hr>
+				<div id="artist_picker"></div>
+			<div></div>
+		</div>
+	</div>
+	<div class="container">
+		<h3>Corresponding works</h3>
+		<hr>
+		<div id="gallery"></div>
+	</div>
 </body>
 
 </html>
 
 <script>
+	val = 10
+	function updateTextInput(val) {
+		document.getElementById('textInput').value=val; 
+	}
+
 	const svg = d3.select('svg')
 	const g = svg.append('g');
 

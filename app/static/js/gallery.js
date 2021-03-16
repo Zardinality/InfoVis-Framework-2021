@@ -7,6 +7,7 @@ function distance(a) {
 }
 
 function update_gallery(dataset_data) {
+    // Obtain the data
     if (!(country_id in dataset_data)) return;
     var cur_data = dataset_data[country_id]['artist_row'][artist_name] || { "image_url": [], "dominant_color": [] };
     var filtered_data = [];
@@ -23,14 +24,31 @@ function update_gallery(dataset_data) {
             return -1;
         }
     })
+    
+    // Select a subset
     var final_data = filtered_data.slice(0, Math.max(5, filtered_data.length));
+    
+    // Init the image grid
+    var width = 1000
+    var num_col = 5
+
+    // Clear the previous view
     d3.select("#gallery").selectAll("*").remove();
-    var tmp = d3.select("#gallery").append('g')
+
+    var svg = d3.select("#gallery").append("svg")
+        .attr("width", width)
+        .append("g")
+        
+    
     final_data.forEach(
-        function (img){
-            tmp            
-            .append('svg:image')
-            .attr('xlink:href', img['url']).attr("width", 150).attr("height", 200);
+        function (img, i){
+            svg 
+                .append('svg:image')
+                .attr("x", ((i % num_col) * (width/num_col)))    
+                .attr("y", Math.floor(i / num_col))
+                .attr("width", 200)
+                .attr("height", 200)
+                .attr('xlink:href', img['url'])
         }
     )
 }

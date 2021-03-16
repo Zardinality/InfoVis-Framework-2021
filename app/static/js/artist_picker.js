@@ -17,8 +17,8 @@ function update_artist_picker(datasetData) {
 
     // set the dimensions and margins of the graph
     var margin = { top: 10, right: 10, bottom: 10, left: 10 },
-        width = 450 - margin.left - margin.right,
-        height = 450 - margin.top - margin.bottom;
+        width = 500 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
     d3.select("#artist_picker").selectAll("*").remove();
     // append the svg object to the body of the page
     var svg = d3.select("#artist_picker").append("svg")

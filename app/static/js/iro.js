@@ -5,6 +5,9 @@
  * github.com/jaames/iro.js
  */
 
+var pickerwidth = 250;
+var pickerheight = 250;
+
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
@@ -1161,10 +1164,12 @@
   
       return null;
     }
+
+
   
     var iroColorPickerOptionDefaults = {
-      width: 300,
-      height: 300,
+      width: pickerwidth,
+      height: pickerheight,
       color: '#fff',
       colors: [],
       padding: 6,
