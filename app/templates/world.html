@@ -77,7 +77,7 @@
 	const pathGenerator = d3.geoPath().projection(projection)
 
 	var colorScale = d3.scaleThreshold()
-		.domain([1, 5, 10])
+		.domain([10, 100, 1000])
 		.range(d3.schemeBlues[4]);
 	var legend_ele = legend({
 		color: colorScale,
@@ -100,7 +100,7 @@
 	var prev_country_color = "";
 	var artist_name = "";
 	var selected_color = { r: 255, g: 0, b: 0 };
-	d3.json("../static/omniart_v3_1k_res.json").then(datasetData => {
+	d3.json("../static/omniart_v3_100k_res.json").then(datasetData => {
 		colorPicker.on('color:change', color => update_palette(color, datasetData));
 		update_artist_picker(datasetData);
 		create_slider(datasetData);
