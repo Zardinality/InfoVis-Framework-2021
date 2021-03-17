@@ -39,6 +39,7 @@ def transform_items(row: dict):
         artist_to_item[a_name]['image_url'].append(img_url)
         artist_to_item[a_name]['creation_year'].append(crea_year)
         artist_to_item[a_name]['dominant_color'].append(dom_color)
+    artist_to_item = {k: v for k, v in sorted(artist_to_item.items(), key=lambda item: item[1])[-100:]}
     return {'artist_row': artist_to_item, 'creation_year':row['creation_year'], 'artist_full_name': row['artist_full_name'], 'artwork_name': row['artwork_name']}
 
 def jsonify(df: pd.DataFrame):

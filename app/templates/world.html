@@ -26,8 +26,10 @@
 		<hr>
 		<div>
 			<output>0</output>
-			<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="0" oninput="this.previousElementSibling.value = this.value">
-			<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="2020" oninput="this.nextElementSibling.value = this.value">
+			<input type="range" name="lower_bound" id=lower_bound min="0" max="2020" value="0"
+				oninput="this.previousElementSibling.value = this.value">
+			<input type="range" name="upper_bound" id=upper_bound min="0" max="2020" value="2020"
+				oninput="this.nextElementSibling.value = this.value">
 			<output>2020</output>
 
 		</div>
@@ -67,7 +69,7 @@
 <script>
 	val = 10
 	function updateTextInput(val) {
-		document.getElementById('textInput').value=val; 
+		document.getElementById('textInput').value = val;
 	}
 
 	const svg = d3.select('svg')
@@ -77,8 +79,8 @@
 	const pathGenerator = d3.geoPath().projection(projection)
 
 	var colorScale = d3.scaleThreshold()
-		.domain([10, 100, 1000])
-		.range(d3.schemeBlues[4]);
+		.domain([10, 100, 200, 500, 700, 1000, 2000, 5000])
+		.range(d3.schemeBlues[8]);
 	var legend_ele = legend({
 		color: colorScale,
 		title: "Number of artworks"
