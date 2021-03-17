@@ -48,7 +48,7 @@ function update_artist_picker(datasetData) {
             .selectAll("text")
             .data(words)
             .enter().append("text")
-            .style("font-size", function (d) { return d.size / 1.1; })
+            .style("font-size", function (d) { return d.size / 1.2; })
             .style("fill", "#69b3a2")
             .attr("text-anchor", "middle")
             .style("font-family", "Poppins")

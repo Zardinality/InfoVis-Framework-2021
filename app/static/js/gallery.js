@@ -29,7 +29,8 @@ function update_gallery(dataset_data) {
     var final_data = filtered_data.slice(0, Math.max(5, filtered_data.length));
     
     // Init the image grid
-    var width = 1000
+    var width = 920
+    var height = 920
     var num_col = 5
 
     // Clear the previous view
@@ -37,6 +38,7 @@ function update_gallery(dataset_data) {
 
     var svg = d3.select("#gallery").append("svg")
         .attr("width", width)
+        .attr("height", height)
         .append("g")
         
     // Show all corresponding images
@@ -47,7 +49,7 @@ function update_gallery(dataset_data) {
                 .attr("xlink:href", img['url'])
                 .append('svg:image')
                 .attr("x", ((i % num_col) * (width/num_col)))    
-                .attr("y", Math.floor(i / num_col))
+                .attr("y", Math.floor(i/num_col) * (width/num_col))
                 .attr("preserveAspectRatio", "xMidYMid meet")
                 .attr("viewBox", "0 0 100 100")
                 .attr("width", width/num_col)
