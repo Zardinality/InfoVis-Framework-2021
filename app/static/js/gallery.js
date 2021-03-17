@@ -39,15 +39,19 @@ function update_gallery(dataset_data) {
         .attr("width", width)
         .append("g")
         
-    
+    // Show all corresponding images
     final_data.forEach(
         function (img, i){
             svg 
+                .append("a")
+                .attr("xlink:href", img['url'])
                 .append('svg:image')
                 .attr("x", ((i % num_col) * (width/num_col)))    
                 .attr("y", Math.floor(i / num_col))
-                .attr("width", 200)
-                .attr("height", 200)
+                .attr("preserveAspectRatio", "xMidYMid meet")
+                .attr("viewBox", "0 0 100 100")
+                .attr("width", width/num_col)
+                .attr("height", width/num_col)
                 .attr('xlink:href', img['url'])
         }
     )

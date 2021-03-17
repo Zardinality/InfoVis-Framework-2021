@@ -34,6 +34,7 @@
 		<div>
 			<svg width="1000" height="700"></svg>
 		</div>
+		<hr>
 		<div>
 			<svg width="300" height="50" id=legend></svg>
 		</div>
@@ -51,7 +52,7 @@
 				<h3>Pick an artist</h3>
 				<hr>
 				<div id="artist_picker"></div>
-			<div></div>
+			</div>
 		</div>
 	</div>
 	<div class="container">
@@ -80,7 +81,7 @@
 		.range(d3.schemeBlues[4]);
 	var legend_ele = legend({
 		color: colorScale,
-		title: "number of artworks"
+		title: "Number of artworks"
 	});
 	var world_map = svg.append("g")
 		.attr("id", "world_map");
