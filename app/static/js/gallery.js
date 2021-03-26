@@ -7,27 +7,40 @@ function distance(a) {
 }
 
 function update_gallery(dataset_data) {
-    // Obtain the data
-    if (!(country_id in dataset_data)) return;
+    // If no country is selected, use the works of all countries
+    if (country_id == "") {
+        var data = [];
+        for (id in dataset_data) {
+            data.push(dataset_data[id]['artist_row']);
+        }
+    } else {
+        if ((country_id in dataset_data)) {
+            var data = {[country_name]: dataset_data[country_id]['artist_row']};
+        } else {
+            // Show nothing if a country has no artists
+            d3.select("#gallery").selectAll("*").remove();
+            return
+        }   
+    }
 
     // If no artist is selected, use the works of all artists
     if (artist_name == "") {
-        console.log("No artist specified")
-        var data = dataset_data[country_id]['artist_row'] || { "image_url": [], "dominant_color": [] };
+        var data = data;
     } else {
-        console.log(artist_name)
-        var data = {artist_name: dataset_data[country_id]['artist_row'][artist_name] || { "image_url": [], "dominant_color": [] }};
+        var data = {[country_name] : {[artist_name]: data[country_name][artist_name]}};
     }
 
     // Filter the data based on color and creation year
     var filtered_data = [];
-    for (artist in data) {
-        var cur_artist = data[artist]
-        for (const im_idx of Array(cur_artist.length).keys()) {
-        // for (work in cur_data[artist]) {
-            // Filter based on the creation year lower- and upperbound
-            if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
-                filtered_data.push({ "url": cur_artist['image_url'][im_idx], "dom_color": cur_artist['dominant_color'][im_idx] });
+    for (country in data) {
+        var cur_country = data[country];
+        for (artist in cur_country) {
+            var cur_artist = cur_country[artist];
+            for (const im_idx of Array(cur_artist.length).keys()) {
+                // Filter based on the creation year lower- and upperbound
+                if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
+                    filtered_data.push({ "url": cur_artist['image_url'][im_idx], "dom_color": cur_artist['dominant_color'][im_idx] });
+                }
             }
         }
     }
@@ -42,13 +55,13 @@ function update_gallery(dataset_data) {
         } 
     })
     
-    // Select a subset
-    var final_data = filtered_data.slice(0, filtered_data.length);
-    
     // Init the image grid
     var width = 920
     var height = 920
     var num_col = 5
+
+    // Select a subset
+    var final_data = filtered_data.slice(0, num_col**2);
 
     // Clear the previous view
     d3.select("#gallery").selectAll("*").remove();
