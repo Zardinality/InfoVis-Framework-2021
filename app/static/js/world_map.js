@@ -17,6 +17,7 @@ function update_map(datasetData){
             countryName[d.iso_n3] = d.name;
             countryCode[d.iso_n3] = d.adm0_a3;
         });
+        
         // Project the world map
         const countries = topojson.feature(topoJSONdata, topoJSONdata.objects.countries);
         world_map.selectAll('path')
@@ -34,15 +35,16 @@ function update_map(datasetData){
                 var filtered_years = datasetData[countryCode[d.id]]['creation_year'].filter(it=>it<upper_year && it>lower_year);
                 // var  = datasetData[countryCode[d.id]]['id'] || [];
                 return colorScale(filtered_years.length);
+
             }).on("mouseover", function (d, i) {
                 // hideTooltip()
                 var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
                 var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
                 displayTooltip("<b>Country names:</b>:" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])
                 
-                //d3.select(this).attr("fill", "DarkOrange");
             }).on("mouseout", function (d, i) {
                 hideTooltip()
+
             }).on("click", function(d){
                 if(country_id)
                     d3.select("#"+country_id).style("fill", prev_country_color);
@@ -50,13 +52,13 @@ function update_map(datasetData){
                 d3.select(this).style("fill", "green");
                 country_id = countryCode[d.id];
                 country_name = countryName[d.id];
-                // TODO: update artist selection
+
+                // Reset the selected artist
+                artist_name = ""
+
+                // Update the other views
                 update_artist_picker(datasetData);
-                // TODO: update gallery
                 update_gallery(datasetData);
-            })
-            ;
-            // .append('title')
-            // .text(d => countryName[d.id])
+            });
     });
 }
