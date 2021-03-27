@@ -108,11 +108,9 @@ function update_color_histogram(dataset_data) {
 
             // Click on a barr to select a dominatn color
             .on("click", function(d){
-                console.log("Click")
-                console.log([d.Color_name])
-                console.log([d.Color_name.split(",")])
                 rgb = d.Color_name.split(",")
-                selected_color = { r: rgb[0], g: rgb[1], b: [2]};
+                console.log(rgb)
+                selected_color = { r: rgb[0], g: rgb[1], b: rgb[2]};
 
                 // update_artist_picker(filtered_data);
                 update_gallery(dataset_data);
