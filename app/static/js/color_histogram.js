@@ -6,7 +6,7 @@ function update_color_histogram(dataset_data) {
     var margin = {top: 10, right: 10, bottom: 10, left: 10},
         width = 400 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom,
-        innerRadius = 80,
+        innerRadius = 50,
         outerRadius = Math.min(width, height) / 2;   // the outerRadius goes from the middle of the SVG area to the border
 
     // Append the svg object to the body of the page
@@ -46,7 +46,7 @@ function update_color_histogram(dataset_data) {
             for (const im_idx of Array(cur_artist.length).keys()) {
                 // Filter based on the creation year lower- and upperbound
                 if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
-                    var color = cur_artist['dominant_color'][im_idx].map(function(x) { return Math.floor(x / num_bins) * num_bins; })
+                    var color = cur_artist['dominant_color'][im_idx].map(function(x) { return Math.round(x / num_bins) * num_bins; })
                     var color_str = color.toString();
                     // console.log(color_str)
 
@@ -73,7 +73,6 @@ function update_color_histogram(dataset_data) {
         }
     }
 
-
     // Get maximum number of occurences per color
     max_num = 0;
     for (color_bin in color_bins) {
@@ -92,9 +91,6 @@ function update_color_histogram(dataset_data) {
         .domain([0, max_num]); // Domain of Y is from 0 to the max seen in the data
 
 
-    console.log(("rgb(" + color_bins[0]["Color_name"] + ")"));
-    console.log(function(d) {return(color_bins.Color_name)});
-
     // Add the bars
     color_histogram.append("g")
         .selectAll("path")
@@ -108,7 +104,19 @@ function update_color_histogram(dataset_data) {
             .endAngle(function(d) { return x(d.Color_name) + x.bandwidth(); })
             .padAngle(0.01)
             .padRadius(innerRadius))
-            .style("fill", function(d,i) { return ("rgb(" + color_bins[i]["Color_name"] + ")")});
+            .style("fill", function(d,i) { return ("rgb(" + color_bins[i]["Color_name"] + ")")})
+
+            // Click on a barr to select a dominatn color
+            .on("click", function(d){
+                console.log("Click")
+                console.log([d.Color_name])
+                console.log([d.Color_name.split(",")])
+                rgb = d.Color_name.split(",")
+                selected_color = { r: rgb[0], g: rgb[1], b: [2]};
+
+                // update_artist_picker(filtered_data);
+                update_gallery(dataset_data);
+            });
 
     // Show the labels
     color_histogram.append("g")
@@ -121,6 +129,6 @@ function update_color_histogram(dataset_data) {
         .append("text")
             .text(function(d){return(d.Amount)})
             .attr("transform", function(d) { return (x(d.Color_name) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "rotate(180)" : "rotate(0)"; })
-            .style("font-size", "11px")
+            .style("font-size", "9px")
             .attr("alignment-baseline", "middle");
 }
