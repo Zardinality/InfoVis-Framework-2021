@@ -7,6 +7,8 @@ function distance(a) {
 }
 
 function update_gallery(dataset_data) {
+    d3.select("#gallery").selectAll("*").remove();
+
     // If no country is selected, use the works of all countries
     if (country_id == "") {
         var data = [];
@@ -16,17 +18,11 @@ function update_gallery(dataset_data) {
     } else {
         if ((country_id in dataset_data)) {
             var data = {[country_name]: dataset_data[country_id]['artist_row']};
-        } else {
-            // Show nothing if a country has no artists
-            d3.select("#gallery").selectAll("*").remove();
-            return
-        }   
+        } else { return }   
     }
 
     // If no artist is selected, use the works of all artists
-    if (artist_name == "") {
-        var data = data;
-    } else {
+    if (artist_name != "") {
         var data = {[country_name] : {[artist_name]: data[country_name][artist_name]}};
     }
 

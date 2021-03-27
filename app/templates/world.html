@@ -14,6 +14,7 @@
 <script type="text/javascript" src="../static/js/artist_picker.js"></script>
 <script type="text/javascript" src="../static/js/legend.js"></script>
 <script type="text/javascript" src="../static/js/iro.js"></script>
+<script type="text/javascript" src="../static/js/color_histogram.js"></script>
 <html>
 <head>
 	<title>Colours of the World</title>
@@ -42,7 +43,8 @@
 			<div class="container">
 				<h3>Pick a color</h3>
 				<hr>
-				<div id="picker"></div>
+				<!-- <div id="picker"></div> -->
+				<div id="color_histogram"></div>
 			</div>
 		</div>
 		<div class="col-sm-8">
@@ -78,12 +80,12 @@
 	var world_map = svg.append("g")
 		.attr("id", "world_map");
 	var slider = svg.append("g")
-	.attr("id", "slider");
-	var palette = svg.append("g")
-		.attr("id", "palette");
-	var colorPicker = new iro.ColorPicker('#picker',
-		{ color: "#f00" }
-	);
+		.attr("id", "slider");
+	// var palette = svg.append("g")
+	// 	.attr("id", "palette");
+	// var colorPicker = new iro.ColorPicker('#picker',
+	// 	{ color: "#f00" }
+	// );
 	var lower_year = d3.select("#lower_bound").attr("value")
 	var upper_year = d3.select("#upper_bound").attr("value")
 
@@ -94,10 +96,11 @@
 	var selected_color = { r: 255, g: 0, b: 0 };
 
 	d3.json("../static/omniart_v3_100k_res.json").then(datasetData => {
-		colorPicker.on('color:change', color => update_palette(color, datasetData));
-		update_artist_picker(datasetData);
-		create_slider(datasetData);
+		// colorPicker.on('color:change', color => update_palette(color, datasetData));
 		update_map(datasetData);
+		create_slider(datasetData);
+		update_color_histogram(datasetData);
+		update_artist_picker(datasetData);
 		update_gallery(datasetData);
 	});
 </script>
