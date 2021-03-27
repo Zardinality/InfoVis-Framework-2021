@@ -41,7 +41,7 @@ function update_map(datasetData){
                 // hideTooltip()
                 var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
                 var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
-                displayTooltip("<b>Country names:</b>:" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])
+                displayTooltip("<b>Country:</b>" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep.slice(0, 10) + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])
                 
             }).on("mouseout", function (d, i) {
                 hideTooltip()
@@ -58,6 +58,7 @@ function update_map(datasetData){
                 artist_name = ""
 
                 // Update the other views
+                update_color_histogram(datasetData)
                 update_artist_picker(datasetData);
                 update_gallery(datasetData);
             });
