@@ -44,16 +44,17 @@ function update_map(datasetData){
                 var filtered_years = datasetData[countryCode[d.id]]['creation_year'].filter(it=>it<upper_year && it>lower_year);
 
                 return colorScale(filtered_years.length);
+            })
 
-            }).on("mouseover", function (d, i) {
+            .on("mouseover", function (d, i) {
                 var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
                 var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
                 displayTooltip("<b>Country:</b>" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep.slice(0, 10) + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])
-                
-            }).on("mouseout", function (d, i) {
+            })
+            .on("mouseout", function (d, i) {
                 hideTooltip()
-
-            }).on("click", function(d){
+            })
+            .on("click", function(d){
                 if(country_id)
                     d3.select("#"+country_id).style("fill", prev_country_color);
                 prev_country_color = d3.select(this).style("fill");

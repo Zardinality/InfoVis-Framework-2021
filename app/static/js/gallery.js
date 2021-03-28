@@ -1,8 +1,8 @@
 function distance(a) {
     var res = 0;
-    res += Math.abs(a[0] - selected_color['r']);
-    res += Math.abs(a[1] - selected_color['g']);
-    res += Math.abs(a[2] - selected_color['b']);
+    res += (a[0] - selected_color['r'])**2;
+    res += (a[1] - selected_color['g'])**2;
+    res += (a[2] - selected_color['b'])**2;
     return res;
 }
 
@@ -92,10 +92,13 @@ function update_gallery(dataset_data) {
                 .attr('xlink:href', img['url'])
                 .on("mouseover", function(d) {
                     displayTooltip(
-                        "<b>Dominant color:\n</b>" + 
+                        "<b>Dominant-color:\n</b>" + 
                         "rgb(" + img['dom_color'] + ")",
                         color="rgb(" + img['dom_color'] + ")"
                     )
+                })
+                .on("mouseout", function (d, i) {
+                    hideTooltip()
                 });
         }
     )
