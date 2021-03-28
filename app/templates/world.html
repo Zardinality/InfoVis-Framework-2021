@@ -21,7 +21,7 @@
 </head>
 
 <body>
-	<div class="container-fluid">
+	<div class="container">
 		<h2>Select a country</h2>
 		<hr>
 		<div>
@@ -31,7 +31,7 @@
 			<output>2020</output>
 		</div>
 		<div>
-			<svg width="1000" height="430"></svg>
+			<div id="world_map"></div>
 		</div>
 		<hr>
 		<div>
@@ -39,15 +39,14 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-7">
+		<div class="col-sm-6">
 			<div class="container">
 				<h3>Pick a color</h3>
 				<hr>
-				<!-- <div id="picker"></div> -->
 				<div id="color_histogram"></div>
 			</div>
 		</div>
-		<div class="col-sm-5">
+		<div class="col-sm-6">
 			<div class="container">
 				<h3>Pick an artist</h3>
 				<hr>
@@ -64,9 +63,6 @@
 </html>
 
 <script>
-	const svg = d3.select('svg')
-	const g = svg.append('g');
-
 	const projection = d3.geoMercator();
 	const pathGenerator = d3.geoPath().projection(projection)
 
@@ -77,15 +73,7 @@
 		color: colorScale,
 		title: "Number of artworks"
 	});
-	var world_map = svg.append("g")
-		.attr("id", "world_map");
-	var slider = svg.append("g")
-		.attr("id", "slider");
-	// var palette = svg.append("g")
-	// 	.attr("id", "palette");
-	// var colorPicker = new iro.ColorPicker('#picker',
-	// 	{ color: "#f00" }
-	// );
+
 	var lower_year = d3.select("#lower_bound").attr("value")
 	var upper_year = d3.select("#upper_bound").attr("value")
 
@@ -96,7 +84,6 @@
 	var selected_color = { r: 255, g: 0, b: 0 };
 
 	d3.json("../static/omniart_v3_100k_res.json").then(datasetData => {
-		// colorPicker.on('color:change', color => update_palette(color, datasetData));
 		update_map(datasetData);
 		create_slider(datasetData);
 		update_color_histogram(datasetData);

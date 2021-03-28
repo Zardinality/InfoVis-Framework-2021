@@ -4,16 +4,19 @@ function update_color_histogram(dataset_data) {
 
     // Set the dimensions and margins of the graph
     var margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width = 550 - margin.left - margin.right,
-        height = 550 - margin.top - margin.bottom,
+        width = 500 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom,
         innerRadius = 80,
         outerRadius = Math.min(width, height) ;   // the outerRadius goes from the middle of the SVG area to the border
 
     // Append the svg object to the body of the page
     var color_histogram = d3.select("#color_histogram")
+        .append("div")
+        .classed("svg-container", true) 
         .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .attr("viewBox", "0 0 500 500")
+        .classed("svg-content-responsive", true)
         .append("g")
             .attr("transform", "translate(" + width / 2 + "," + ( height/2+100 )+ ")"); // Add 100 on Y translation, cause upper bars are longer
 

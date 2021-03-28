@@ -1,5 +1,13 @@
+
 function update_map(datasetData){
-    // import {legend} from "@d3/color-legend"
+	world_map = d3.select('#world_map')
+		.append("div")
+			.classed("svg-container", true) 
+            .style("padding-bottom",  "50%")
+			.append("svg")
+			.attr("preserveAspectRatio", "xMinYMin meet")
+			.attr("viewBox", "0 0 1000 500")
+			.classed("svg-content-responsive", true)    
 
     // Load datasets
     Promise.all([
@@ -21,7 +29,7 @@ function update_map(datasetData){
         // Project the world map
         const countries = topojson.feature(topoJSONdata, topoJSONdata.objects.countries);
 
-        world_map.selectAll('path')
+        world_map.selectAll('world_map')
             .data(countries.features)
             .enter().append('path')
             .attr('class', 'country')

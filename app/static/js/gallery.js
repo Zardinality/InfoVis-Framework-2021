@@ -68,10 +68,13 @@ function update_gallery(dataset_data) {
     // Clear the previous view
     d3.select("#gallery").selectAll("*").remove();
 
-    var svg = d3.select("#gallery").append("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .append("g")
+    var svg = d3.select("#gallery")
+        .append("div")
+        .classed("svg-container", true) 
+        .append("svg")
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .attr("viewBox", "0 0 920 920")
+        .classed("svg-content-responsive", true)
         
     // Show all corresponding images
     final_data.forEach(
@@ -89,7 +92,8 @@ function update_gallery(dataset_data) {
                 .attr('xlink:href', img['url'])
                 .on("mouseover", function(d) {
                     displayTooltip(
-                        "<b>Dominant color</b>",
+                        "<b>Dominant color:\n</b>" + 
+                        "rgb(" + img['dom_color'] + ")",
                         color="rgb(" + img['dom_color'] + ")"
                     )
                 });

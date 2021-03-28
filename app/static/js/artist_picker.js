@@ -21,9 +21,13 @@ function update_artist_picker(datasetData) {
         height = 500 - margin.top - margin.bottom;
     d3.select("#artist_picker").selectAll("*").remove();
     // append the svg object to the body of the page
-    var svg = d3.select("#artist_picker").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+    var svg = d3.select("#artist_picker")
+        .append("div")
+        .classed("svg-container", true) 
+        .append("svg")
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .attr("viewBox", "0 0 500 500")
+        .classed("svg-content-responsive", true)
         .append("g")
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
