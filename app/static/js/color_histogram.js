@@ -4,10 +4,10 @@ function update_color_histogram(dataset_data) {
 
     // Set the dimensions and margins of the graph
     var margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width = 400 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom,
-        innerRadius = 50,
-        outerRadius = Math.min(width, height) / 2;   // the outerRadius goes from the middle of the SVG area to the border
+        width = 550 - margin.left - margin.right,
+        height = 550 - margin.top - margin.bottom,
+        innerRadius = 80,
+        outerRadius = Math.min(width, height) ;   // the outerRadius goes from the middle of the SVG area to the border
 
     // Append the svg object to the body of the page
     var color_histogram = d3.select("#color_histogram")
@@ -35,7 +35,7 @@ function update_color_histogram(dataset_data) {
     }                                                                                
 
     // Filter the data based on color and creation year
-    var num_bins = 32;
+    var num_bins = 64;
     var color_bins = [];
     var color_labels = [];
 
@@ -80,6 +80,7 @@ function update_color_histogram(dataset_data) {
             max_num = color_bins[color_bin]["Amount"];
         }
     }
+    console.log(max_num)
 
     // Scales
     var x = d3.scaleBand()
@@ -88,7 +89,7 @@ function update_color_histogram(dataset_data) {
         .domain(color_labels); // The domain of the X axis is the list of states.
     var y = d3.scaleRadial()
         .range([innerRadius, outerRadius])   // Domain will be define later.
-        .domain([0, max_num]); // Domain of Y is from 0 to the max seen in the data
+        .domain([0, max_num*3]); // Domain of Y is from 0 to the max seen in the data
 
 
     // Add the bars
@@ -97,24 +98,29 @@ function update_color_histogram(dataset_data) {
         .data(color_bins)
         .enter()
         .append("path")
+        .attr('class', 'color_histogram')
         .attr("d", d3.arc()     // imagine your doing a part of a donut plot
             .innerRadius(innerRadius)
-            .outerRadius(function(d) { return y(d.Amount); })
+            .outerRadius(function(d) { return y(d.Amount) + max_num*0.001; })
             .startAngle(function(d) { return x(d.Color_name); })
             .endAngle(function(d) { return x(d.Color_name) + x.bandwidth(); })
             .padAngle(0.01)
             .padRadius(innerRadius))
             .style("fill", function(d,i) { return ("rgb(" + color_bins[i]["Color_name"] + ")")})
 
-            // Click on a barr to select a dominatn color
-            .on("click", function(d){
+            // Click on a barr to select a dominan color
+            .on("click", function(d) {
                 rgb = d.Color_name.split(",")
                 console.log(rgb)
                 selected_color = { r: rgb[0], g: rgb[1], b: rgb[2]};
 
                 // update_artist_picker(filtered_data);
                 update_gallery(dataset_data);
-            });
+            })
+
+            // .on("mousover", function(d) {
+            //     .style("fill", 
+            // })
 
     // Show the labels
     color_histogram.append("g")

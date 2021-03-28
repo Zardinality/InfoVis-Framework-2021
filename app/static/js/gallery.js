@@ -9,6 +9,8 @@ function distance(a) {
 function update_gallery(dataset_data) {
     d3.select("#gallery").selectAll("*").remove();
 
+    console.log(dataset_data)
+
     // If no country is selected, use the works of all countries
     if (country_id == "") {
         var data = [];
@@ -35,7 +37,11 @@ function update_gallery(dataset_data) {
             for (const im_idx of Array(cur_artist.length).keys()) {
                 // Filter based on the creation year lower- and upperbound
                 if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
-                    filtered_data.push({ "url": cur_artist['image_url'][im_idx], "dom_color": cur_artist['dominant_color'][im_idx] });
+                    filtered_data.push({
+                        "url": cur_artist['image_url'][im_idx], 
+                        "dom_color": cur_artist['dominant_color'][im_idx],
+                        "artist": cur_artist['']
+                    });
                 }
             }
         }
@@ -81,6 +87,12 @@ function update_gallery(dataset_data) {
                 .attr("width", width/num_col)
                 .attr("height", width/num_col)
                 .attr('xlink:href', img['url'])
+                .on("mouseover", function(d) {
+                    displayTooltip(
+                        "<b>Dominant color</b>",
+                        color="rgb(" + img['dom_color'] + ")"
+                    )
+                });
         }
     )
 }

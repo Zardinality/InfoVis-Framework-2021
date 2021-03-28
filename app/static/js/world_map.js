@@ -38,7 +38,6 @@ function update_map(datasetData){
                 return colorScale(filtered_years.length);
 
             }).on("mouseover", function (d, i) {
-                // hideTooltip()
                 var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
                 var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
                 displayTooltip("<b>Country:</b>" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep.slice(0, 10) + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])

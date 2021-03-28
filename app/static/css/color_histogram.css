@@ -1,0 +1,10 @@
+
+.color_histogram {
+    stroke: black;
+    stroke-width: 0px;
+}
+
+.color_histogram:hover {
+    transition: 0.3s;
+    stroke-width: 0.51px;
+}
