@@ -32,12 +32,12 @@ function update_gallery(dataset_data) {
         var cur_country = data[country];
         for (artist in cur_country) {
             var cur_artist = cur_country[artist];
-            for (const im_idx of Array(cur_artist.length).keys()) {
+            for (i = 0; i < cur_artist["dominant_color"].length; i++) {
                 // Filter based on the creation year lower- and upperbound
-                if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
+                if (cur_artist['creation_year'][i] < upper_year && cur_artist['creation_year'][i] > lower_year) {
                     filtered_data.push({
-                        "url": cur_artist['image_url'][im_idx], 
-                        "dom_color": cur_artist['dominant_color'][im_idx],
+                        "url": cur_artist['image_url'][i], 
+                        "dom_color": cur_artist['dominant_color'][i],
                         "artist": cur_artist['']
                     });
                 }

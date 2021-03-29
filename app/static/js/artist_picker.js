@@ -68,6 +68,7 @@ function update_artist_picker(datasetData) {
                 artist_name = d.text;
                 // TODO: update gallery
                 update_navbar();
+                update_color_histogram(datasetData);
                 update_gallery(datasetData);
             });
     }

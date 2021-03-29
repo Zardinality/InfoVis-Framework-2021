@@ -46,10 +46,11 @@ function update_color_histogram(dataset_data) {
         var cur_country = filtered_data[country];
         for (artist in cur_country) {
             var cur_artist = cur_country[artist];
-            for (const im_idx of Array(cur_artist.length).keys()) {
+            for (i = 0; i < cur_artist['dominant_color'].length; i++) {
+
                 // Filter based on the creation year lower- and upperbound
-                if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
-                    var color = cur_artist['dominant_color'][im_idx].map(function(x) { return Math.round(x / num_bins) * num_bins; })
+                if (cur_artist['creation_year'][i] < upper_year && cur_artist['creation_year'][i] > lower_year) {
+                    var color = cur_artist['dominant_color'][i].map(function(x) { return Math.round(x / num_bins) * num_bins; })
                     var color_str = color.toString();
 
                     // Add the first
@@ -90,7 +91,7 @@ function update_color_histogram(dataset_data) {
         .domain(color_labels); // The domain of the X axis is the list of states.
     var y = d3.scaleRadial()
         .range([innerRadius, outerRadius])   // Domain will be define later.
-        .domain([0, max_num*5]); // Domain of Y is from 0 to the max seen in the data
+        .domain([0 - max_num*0.005, max_num*4]); // Domain of Y is from 0 to the max seen in the data
 
 
     // Add the bars
@@ -102,7 +103,7 @@ function update_color_histogram(dataset_data) {
         .attr('class', 'color_histogram')
         .attr("d", d3.arc()     // imagine your doing a part of a donut plot
             .innerRadius(innerRadius)
-            .outerRadius(function(d) { return y(d.Amount) + max_num*0.001; })
+            .outerRadius(function(d) { return y(d.Amount); })
             .startAngle(function(d) { return x(d.Color_name); })
             .endAngle(function(d) { return x(d.Color_name) + x.bandwidth(); })
             .padAngle(0.01)
@@ -114,6 +115,10 @@ function update_color_histogram(dataset_data) {
                 rgb = d.Color_name.split(",")
                 selected_color = { r: rgb[0], g: rgb[1], b: rgb[2]};
                 // d3.select(this).style("fill", currentColor);
+                
+                update_color_histogram(dataset_data);
+                d3.select(this).style("fill", "green");
+                
 
                 // update_artist_picker(filtered_data);
                 // artist_name = "All artists";

@@ -65,7 +65,7 @@ function update_map(datasetData){
                 if(country_id)
                     d3.select("#"+country_id).style("fill", prev_country_color);
                 prev_country_color = d3.select(this).style("fill");
-                d3.select(this).style("fill", "green");
+                d3.select(this).style("fill", "#c31414");
                 country_id = countryCode[d.id];
                 country_name = countryName[d.id];
 
