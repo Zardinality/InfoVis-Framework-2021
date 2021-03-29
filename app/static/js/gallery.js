@@ -9,8 +9,6 @@ function distance(a) {
 function update_gallery(dataset_data) {
     d3.select("#gallery").selectAll("*").remove();
 
-    console.log(dataset_data)
-
     // If no country is selected, use the works of all countries
     if (country_id == "") {
         var data = [];
@@ -24,7 +22,7 @@ function update_gallery(dataset_data) {
     }
 
     // If no artist is selected, use the works of all artists
-    if (artist_name != "") {
+    if (artist_name != "All artists") {
         var data = {[country_name] : {[artist_name]: data[country_name][artist_name]}};
     }
 

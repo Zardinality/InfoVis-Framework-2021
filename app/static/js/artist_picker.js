@@ -2,10 +2,12 @@ function update_artist_picker(datasetData) {
     // List of words
     // var myWords = [{ word: "Running", size: "10" }, { word: "Surfing", size: "20" }, { word: "Climbing", size: "50" }, { word: "Kiting", size: "30" }, { word: "Sailing", size: "20" }, { word: "Snowboarding", size: "60" }]
     // TODO: update the data script to change the artist full names to the format above
+    // filtered_years = filtered_years[countryCode[d.id]]['creation_year'].filter(it=>it<=upper_year && it>=lower_year);
+
     var myWords = [];
     if(country_id in datasetData){
         for(var a_name in datasetData[country_id]["artist_row"]){
-            myWords.push({word: a_name, size: 10*datasetData[country_id]['artist_row'][a_name].creation_year.length});
+            myWords.push({word: a_name, size: 10*datasetData[country_id]['artist_row'][a_name].creation_year.filter(it=>it<=upper_year && it>=lower_year).length});
         }
     }
     // if (!datasetData[country_id]) {
@@ -65,6 +67,7 @@ function update_artist_picker(datasetData) {
             .on("click", function(d){
                 artist_name = d.text;
                 // TODO: update gallery
+                update_navbar();
                 update_gallery(datasetData);
             });
     }

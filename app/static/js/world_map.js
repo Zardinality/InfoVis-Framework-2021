@@ -1,5 +1,12 @@
 
 function update_map(datasetData){
+    d3.select("#world_map").selectAll("*").remove();
+
+
+
+    console.log(lower_year)
+    console.log(upper_year)
+
 	world_map = d3.select('#world_map')
 		.append("div")
 			.classed("svg-container", true) 
@@ -41,7 +48,7 @@ function update_map(datasetData){
                 if (!datasetData[countryCode[d.id]]) {
                     return colorScale(0)
                 }
-                var filtered_years = datasetData[countryCode[d.id]]['creation_year'].filter(it=>it<upper_year && it>lower_year);
+                var filtered_years = datasetData[countryCode[d.id]]['creation_year'].filter(it=>it<=upper_year && it>=lower_year);
 
                 return colorScale(filtered_years.length);
             })
@@ -63,9 +70,10 @@ function update_map(datasetData){
                 country_name = countryName[d.id];
 
                 // Reset the selected artist
-                artist_name = ""
+                artist_name = "All artists"
 
                 // Update the other views
+                update_navbar();
                 update_color_histogram(datasetData)
                 update_artist_picker(datasetData);
                 update_gallery(datasetData);

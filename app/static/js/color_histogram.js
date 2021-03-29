@@ -4,8 +4,8 @@ function update_color_histogram(dataset_data) {
 
     // Set the dimensions and margins of the graph
     var margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width = 500 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom,
+        width = 500
+        height = 500
         innerRadius = 80,
         outerRadius = Math.min(width, height) ;   // the outerRadius goes from the middle of the SVG area to the border
 
@@ -18,7 +18,7 @@ function update_color_histogram(dataset_data) {
         .attr("viewBox", "0 0 500 500")
         .classed("svg-content-responsive", true)
         .append("g")
-            .attr("transform", "translate(" + width / 2 + "," + ( height/2+100 )+ ")"); // Add 100 on Y translation, cause upper bars are longer
+            .attr("transform", "translate(" + width / 2 + "," + ( height/2 )+ ")"); // Add 100 on Y translation, cause upper bars are longer
 
     var filtered_data = []
     // If no country is selected, use the works of all countries
@@ -33,12 +33,12 @@ function update_color_histogram(dataset_data) {
     }
 
     // If no artist is selected, use the works of all artists
-    if (artist_name != "") {
+    if (artist_name != "All artists") {
         var filtered_data = {[country_name] : {[artist_name]: filtered_data[country_name][artist_name]}};
     }                                                                                
 
     // Filter the data based on color and creation year
-    var num_bins = 64;
+    var num_bins = 48;
     var color_bins = [];
     var color_labels = [];
 
@@ -51,7 +51,6 @@ function update_color_histogram(dataset_data) {
                 if (cur_artist['creation_year'][im_idx] < upper_year && cur_artist['creation_year'][im_idx] > lower_year) {
                     var color = cur_artist['dominant_color'][im_idx].map(function(x) { return Math.round(x / num_bins) * num_bins; })
                     var color_str = color.toString();
-                    // console.log(color_str)
 
                     // Add the first
                     if (color_bins.length == 0) {
@@ -83,7 +82,6 @@ function update_color_histogram(dataset_data) {
             max_num = color_bins[color_bin]["Amount"];
         }
     }
-    console.log(max_num)
 
     // Scales
     var x = d3.scaleBand()
@@ -92,7 +90,7 @@ function update_color_histogram(dataset_data) {
         .domain(color_labels); // The domain of the X axis is the list of states.
     var y = d3.scaleRadial()
         .range([innerRadius, outerRadius])   // Domain will be define later.
-        .domain([0, max_num*3]); // Domain of Y is from 0 to the max seen in the data
+        .domain([0, max_num*5]); // Domain of Y is from 0 to the max seen in the data
 
 
     // Add the bars
@@ -111,17 +109,18 @@ function update_color_histogram(dataset_data) {
             .padRadius(innerRadius))
             .style("fill", function(d,i) { return ("rgb(" + color_bins[i]["Color_name"] + ")")})
 
-            // Click on a barr to select a dominan color
+            // Click on a bar to select a dominant color
             .on("click", function(d) {
                 rgb = d.Color_name.split(",")
-                console.log(rgb)
                 selected_color = { r: rgb[0], g: rgb[1], b: rgb[2]};
                 // d3.select(this).style("fill", currentColor);
 
                 // update_artist_picker(filtered_data);
-                artist_name = "";
-                update_artist_picker(dataset_data);
+                // artist_name = "All artists";
+                update_navbar();
+                // update_artist_picker(dataset_data);
                 update_gallery(dataset_data);
+                update_divcol();
             })
             .on("mouseover", function(d) {
                 displayTooltip(
