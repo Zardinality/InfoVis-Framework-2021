@@ -2,11 +2,6 @@
 function update_map(datasetData){
     d3.select("#world_map").selectAll("*").remove();
 
-
-
-    console.log(lower_year)
-    console.log(upper_year)
-
 	world_map = d3.select('#world_map')
 		.append("div")
 			.classed("svg-container", true) 
@@ -54,9 +49,13 @@ function update_map(datasetData){
             })
 
             .on("mouseover", function (d, i) {
-                var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
-                var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
-                displayTooltip("<b>Country:</b>" + countryName[d.id] + "<br /><b>Top artist:</b>" + artist_name_wo_rep.slice(0, 10) + "<br /><b>Artwork: </b>" + cur_data['artwork_name'][0])
+                if (!datasetData[countryCode[d.id]]) {
+                    return
+                }
+                // var cur_data = datasetData[countryCode[d.id]] || {"artist_full_name":"", "artwork_name":[""]};
+                // var artist_name_wo_rep = [... new Set(cur_data['artist_full_name'])];
+                var filtered_years = datasetData[countryCode[d.id]]['creation_year'].filter(it=>it<=upper_year && it>=lower_year);
+                displayTooltip("<b>Country: </b>" + countryName[d.id] + "<br><b>Number of artists: </b>" + filtered_years.length)
             })
             .on("mouseout", function (d, i) {
                 hideTooltip()

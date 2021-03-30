@@ -114,40 +114,21 @@ function update_color_histogram(dataset_data) {
             .on("click", function(d) {
                 rgb = d.Color_name.split(",")
                 selected_color = { r: rgb[0], g: rgb[1], b: rgb[2]};
-                // d3.select(this).style("fill", currentColor);
                 
                 update_color_histogram(dataset_data);
                 d3.select(this).style("fill", "green");
                 
-
-                // update_artist_picker(filtered_data);
-                // artist_name = "All artists";
                 update_navbar();
-                // update_artist_picker(dataset_data);
                 update_gallery(dataset_data);
                 update_divcol();
             })
             .on("mouseover", function(d) {
                 displayTooltip(
-                    "<b>Amount:\n</b>" + 
+                    "<b>Works with this dominant color: </b>" + 
                     d.Amount
                 )
             })
             .on("mouseout", function (d, i) {
                 hideTooltip()
             });
-
-    // // Show the labels
-    // color_histogram.append("g")
-    //     .selectAll("g")
-    //     .data(color_bins)
-    //     .enter()
-    //     .append("g")
-    //         .attr("text-anchor", function(d) { return (x(d.Color_name) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "end" : "start"; })
-    //         .attr("transform", function(d) { return "rotate(" + ((x(d.Color_name) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")"+"translate(" + (y(d.Amount)+10) + ",0)"; })
-    //     .append("text")
-    //         .text(function(d){return(d.Amount)})
-    //         .attr("transform", function(d) { return (x(d.Color_name) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "rotate(180)" : "rotate(0)"; })
-    //         .style("font-size", "9px")
-    //         .attr("alignment-baseline", "middle");
 }

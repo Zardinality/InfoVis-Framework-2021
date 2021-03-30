@@ -90,7 +90,7 @@ function update_gallery(dataset_data) {
                 .attr('xlink:href', img['url'])
                 .on("mouseover", function(d) {
                     displayTooltip(
-                        "<b>Dominant-color:\n</b>" + 
+                        "<b>Dominant-color:</b>" + 
                         "rgb(" + img['dom_color'] + ")",
                         color="rgb(" + img['dom_color'] + ")"
                     )

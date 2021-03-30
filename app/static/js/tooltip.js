@@ -1,4 +1,4 @@
-function displayTooltip(htmlText, color="rgb(250, 250, 250)", waiting_time=false) {
+function displayTooltip(htmlText, color="rgb(200, 200, 200)", waiting_time=false) {
 	MOUSEOVER = true;
 	var tooltipLength = htmlText.length;
 	tooltipLength = Math.max(7, tooltipLength)
